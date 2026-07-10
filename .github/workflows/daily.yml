@@ -1,0 +1,58 @@
+name: Daily update
+
+on:
+  schedule:
+    - cron: "0 21 * * *"  # JST 06:00
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch jGrants
+        run: python scripts/fetch_jgrants.py
+        continue-on-error: true
+
+      - name: Fetch J-Net21
+        run: |
+          if [ -f scripts/fetch_jnet21.py ]; then
+            python scripts/fetch_jnet21.py
+          fi
+        continue-on-error: true
+
+      - name: Enrich (Claude Batch API)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -f scripts/enrich.py ]; then
+            python scripts/enrich.py
+          fi
+        continue-on-error: true
+
+      - name: Update status
+        run: python scripts/update_status.py
+
+      - name: Generate site
+        env:
+          GA4_ID: ${{ secrets.GA4_ID }}
+        run: python scripts/generate_site.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ docs/
+          git diff --cached --quiet || git commit -m "chore: daily data update $(date -u +%Y-%m-%d)"
+          git push

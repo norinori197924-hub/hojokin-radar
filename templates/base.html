@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}補助金レーダー{% endblock %}</title>
+<meta name="description" content="{% block description %}中小企業・個人事業主向けの補助金・助成金情報を締切順に自動収集して掲載します。{% endblock %}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% block og_title %}{{ self.title() }}{% endblock %}">
+<meta property="og:description" content="{% block og_description %}{{ self.description() }}{% endblock %}">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="{{ base_path }}style.css">
+{% if ga4_id %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ ga4_id }}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '{{ ga4_id }}');
+</script>
+{% endif %}
+{% block head_extra %}{% endblock %}
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a href="{{ base_path }}index.html" style="text-decoration:none;color:inherit;">
+      <p class="site-title">補助金レーダー</p>
+    </a>
+    <p class="site-tagline">中小企業・個人事業主向けの補助金・助成金を締切順に自動収集</p>
+    {% if generated_at %}<p class="updated-at">最終更新: {{ generated_at }}</p>{% endif %}
+  </div>
+</header>
+<main class="container">
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>本サイトは公開情報の整理であり、正確性を保証しません。申請前に必ず公式ページをご確認ください。</p>
+    <p>&copy; 補助金レーダー</p>
+  </div>
+</footer>
+</body>
+</html>

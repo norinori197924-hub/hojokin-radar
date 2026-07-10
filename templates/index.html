@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% import "_macros.html" as macros %}
+
+{% block title %}補助金レーダー | 補助金・助成金を締切順に自動収集{% endblock %}
+
+{% block content %}
+
+<h2 class="section-title">締切間近</h2>
+<div class="card-list">
+  {% for item in closing_soon %}
+    {{ macros.subsidy_card(item, base_path) }}
+  {% else %}
+    <p class="empty-note">現在、締切間近の項目はありません。</p>
+  {% endfor %}
+</div>
+
+<h2 class="section-title">新着</h2>
+<div class="card-list">
+  {% for item in new_items %}
+    {{ macros.subsidy_card(item, base_path) }}
+  {% else %}
+    <p class="empty-note">現在、新着の項目はありません。</p>
+  {% endfor %}
+</div>
+
+<h2 class="section-title">募集中の補助金・助成金一覧（締切順）全{{ all_items|length }}件</h2>
+<div class="card-list">
+  {% for item in all_items %}
+    {{ macros.subsidy_card(item, base_path) }}
+  {% else %}
+    <p class="empty-note">現在、募集中の項目はありません。</p>
+  {% endfor %}
+</div>
+
+{% endblock %}

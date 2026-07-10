@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% import "_macros.html" as macros %}
+
+{% block title %}{{ item.title }} | 補助金レーダー{% endblock %}
+{% block description %}{{ item.summary or item.catch_phrase or item.title }}{% endblock %}
+
+{% block content %}
+
+<p class="breadcrumbs">
+  <a href="{{ base_path }}index.html">トップ</a>
+  {% if item.category %} &gt; {{ item.category }}{% endif %}
+  &gt; {{ item.title }}
+</p>
+
+<div class="detail-header">
+  <h1 class="detail-title">{{ item.title }}</h1>
+  <p>{{ macros.status_badge(item) }}</p>
+
+  <a class="official-link-btn" href="{{ item.official_url }}" target="_blank" rel="noopener noreferrer">公式ページを見る</a>
+
+  <table class="detail-facts">
+    <tr><th>実施機関</th><td>{{ item.organization or "不明" }}</td></tr>
+    <tr><th>補助上限額</th><td>{{ item.amount_text or "不明" }}</td></tr>
+    <tr><th>補助率</th><td>{{ item.subsidy_rate or "不明" }}</td></tr>
+    <tr><th>締切</th><td>{{ item.deadline or "不明（随時受付等）" }}</td></tr>
+    <tr><th>受付開始</th><td>{{ item.start_date or "不明" }}</td></tr>
+    <tr><th>対象業種</th><td>{{ item.target_industries|join("、") if item.target_industries else "不明" }}</td></tr>
+    <tr><th>対象地域</th><td>{{ item.target_area or "不明" }}</td></tr>
+  </table>
+
+  {% if item.summary %}
+    <p>{{ item.summary }}</p>
+  {% elif item.catch_phrase %}
+    <p>{{ item.catch_phrase }}</p>
+  {% endif %}
+</div>
+
+<!-- AFFILIATE_SLOT_1 -->
+
+<p><a class="official-link-btn" href="{{ item.official_url }}" target="_blank" rel="noopener noreferrer">公式ページを見る</a></p>
+
+<p class="empty-note">最終更新: {{ item.last_updated }}（初掲載: {{ item.first_seen }}）</p>
+
+{% endblock %}

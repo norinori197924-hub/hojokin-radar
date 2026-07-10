@@ -1,0 +1,24 @@
+{% macro status_badge(item) %}
+{%- if item.status == 'closing_soon' -%}
+  <span class="badge badge-closing">残り{{ item.days_left }}日</span>
+{%- elif item.status == 'closed' -%}
+  <span class="badge badge-tag">募集終了</span>
+{%- elif item.days_left is not none -%}
+  <span class="badge badge-open">残り{{ item.days_left }}日</span>
+{%- else -%}
+  <span class="badge badge-open">随時</span>
+{%- endif -%}
+{% endmacro %}
+
+{% macro subsidy_card(item, base_path) %}
+<div class="card">
+  <div class="card-title"><a href="{{ base_path }}s/{{ item.id }}.html">{{ item.title }}</a></div>
+  <div class="card-meta">
+    {{ status_badge(item) }}
+    <span class="badge badge-tag">{{ item.amount_text }}</span>
+    {% if item.category %}<span class="badge badge-tag">{{ item.category }}</span>{% endif %}
+    <span>{{ item.target_area }}</span>
+    {% if item.deadline %}<span>締切: {{ item.deadline }}</span>{% endif %}
+  </div>
+</div>
+{% endmacro %}
