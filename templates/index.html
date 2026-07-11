@@ -24,12 +24,51 @@
 </div>
 
 <h2 class="section-title">募集中の補助金・助成金一覧（締切順）全{{ all_items|length }}件</h2>
-<div class="card-list">
+
+<noscript><style>#filter-panel{display:none}</style></noscript>
+<section class="filter-panel" id="filter-panel">
+  <div class="filter-row">
+    <div class="filter-field">
+      <label for="filter-area">都道府県</label>
+      <select id="filter-area">
+        <option value="">すべて</option>
+        {% for area in available_areas %}
+          <option value="{{ area }}">{{ area }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="filter-field">
+      <label for="filter-industry">業種・対象分野</label>
+      <select id="filter-industry">
+        <option value="">すべて</option>
+        {% for industry in available_industries %}
+          <option value="{{ industry }}">{{ industry }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+  <div class="filter-row">
+    <div class="filter-field filter-field-wide">
+      <label for="filter-keyword">キーワード（補助金名・概要）</label>
+      <input type="search" id="filter-keyword" placeholder="例: 設備投資、IT導入 など">
+    </div>
+  </div>
+  <p class="filter-count" id="filter-count" aria-live="polite"></p>
+</section>
+
+<div class="card-list" id="all-items-list">
   {% for item in all_items %}
-    {{ macros.subsidy_card(item, base_path) }}
+    {{ macros.subsidy_card(item, base_path, filterable=true) }}
   {% else %}
     <p class="empty-note">現在、募集中の項目はありません。</p>
   {% endfor %}
+  {% if all_items %}
+    <p class="empty-note" id="filter-no-match" hidden>条件に一致する補助金がありません。条件を変更してお試しください。</p>
+  {% endif %}
 </div>
 
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ base_path }}filter.js" defer></script>
 {% endblock %}

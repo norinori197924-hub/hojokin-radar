@@ -19,10 +19,22 @@ DATA_PATH = ROOT / "data" / "subsidies.json"
 API_BASE = "https://api.jgrants-portal.go.jp/exp/v1/public/subsidies"
 JST = timezone(timedelta(hours=9))
 
-# jGrants APIはkeyword必須・全文検索。複数の広いキーワードで検索範囲をカバーする。
-SEARCH_KEYWORDS = ["補助", "助成", "支援", "創業", "事業"]
+# jGrants APIはkeyword必須・全文検索でページング機構が無い（1レスポンスでヒット全件を
+# 返す）ため、広いキーワードを多数投げてカバー範囲を広げることが取得件数拡大の唯一の
+# 手段となる。分野横断的な語を追加し、個別分野の専門語のみを含む案件（「補助/助成/
+# 支援/事業」を含まないタイトル等）の取りこぼしを減らす。
+SEARCH_KEYWORDS = [
+    "補助", "助成", "支援", "創業", "事業",
+    "中小企業", "小規模", "スタートアップ", "事業承継",
+    "DX", "IT", "ものづくり",
+    "省エネ", "脱炭素", "環境",
+    "観光", "農業", "海外展開",
+    "人材", "女性", "賃上げ",
+]
 
-REQUEST_INTERVAL_SEC = 0.3
+# jGrants APIのレート制限は60リクエスト/分が推奨値（公式ドキュメント）。
+# 1.1秒間隔（約54リクエスト/分）で安全マージンを確保する。
+REQUEST_INTERVAL_SEC = 1.1
 
 
 def _to_jst_date(iso_str):
@@ -33,23 +45,28 @@ def _to_jst_date(iso_str):
 
 
 def search_ids():
-    """複数キーワードで検索し、重複排除したid一覧を返す。"""
+    """複数キーワードで検索し、重複排除したid一覧を返す。
+    1キーワードの通信エラーで全体を止めないよう、キーワード単位でtry/exceptする
+    （キーワード数が増えるほど単発エラーに当たる確率も上がるため）。"""
     ids = {}
     for kw in SEARCH_KEYWORDS:
-        resp = requests.get(
-            API_BASE,
-            params={
-                "keyword": kw,
-                "sort": "acceptance_end_datetime",
-                "order": "ASC",
-                "acceptance": 1,
-            },
-            timeout=30,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        for item in data.get("result", []):
-            ids[item["id"]] = item
+        try:
+            resp = requests.get(
+                API_BASE,
+                params={
+                    "keyword": kw,
+                    "sort": "acceptance_end_datetime",
+                    "order": "ASC",
+                    "acceptance": 1,
+                },
+                timeout=30,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            for item in data.get("result", []):
+                ids[item["id"]] = item
+        except (requests.RequestException, ValueError) as e:
+            print(f"WARN: search failed for keyword '{kw}': {e}", file=sys.stderr)
         time.sleep(REQUEST_INTERVAL_SEC)
     return ids
 
@@ -143,7 +160,7 @@ def main():
             record["last_updated"] = today
             existing[key] = record
             fetched_count += 1
-        except requests.RequestException as e:
+        except (requests.RequestException, ValueError) as e:
             print(f"WARN: failed to fetch detail for {subsidy_id}: {e}", file=sys.stderr)
             error_count += 1
         time.sleep(REQUEST_INTERVAL_SEC)

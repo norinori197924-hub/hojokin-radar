@@ -10,8 +10,14 @@
 {%- endif -%}
 {% endmacro %}
 
-{% macro subsidy_card(item, base_path) %}
-<div class="card">
+{% macro subsidy_card(item, base_path, filterable=false) %}
+<div class="card"
+  {%- if filterable %}
+  data-filter-card
+  data-area="{{ item.target_area or '' }}"
+  data-industries="{{ item.target_industries|join('|') if item.target_industries else '' }}"
+  data-search="{{ [item.title, item.catch_phrase, item.summary]|select|join(' ')|lower }}"
+  {%- endif %}>
   <div class="card-title"><a href="{{ base_path }}s/{{ item.id }}.html">{{ item.title }}</a></div>
   <div class="card-meta">
     {{ status_badge(item) }}

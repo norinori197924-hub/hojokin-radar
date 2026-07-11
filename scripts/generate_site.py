@@ -3,6 +3,7 @@
 """
 import json
 import os
+import shutil
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -11,10 +12,75 @@ from jinja2 import Environment, FileSystemLoader
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "subsidies.json"
 TEMPLATES_DIR = ROOT / "templates"
+STATIC_DIR = ROOT / "static"
 DOCS_DIR = ROOT / "docs"
 JST = timezone(timedelta(hours=9))
 NEW_ITEM_WINDOW_DAYS = 7
 TOP_LIST_LIMIT = 10
+
+# 表示順を安定させるための行政区画順（北海道→沖縄）。
+# 実データに出現する都道府県だけをこの順で抽出する（存在しない値は追加しない）。
+PREFECTURE_ORDER = [
+    "北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県",
+    "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県",
+    "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県", "岐阜県",
+    "静岡県", "愛知県", "三重県",
+    "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県",
+    "鳥取県", "島根県", "岡山県", "広島県", "山口県",
+    "徳島県", "香川県", "愛媛県", "高知県",
+    "福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県",
+]
+
+
+def collect_available_areas(items):
+    """出現する都道府県を行政区画順で集計する（「全国」「不明」は選択肢に含めない）。"""
+    seen = set()
+    for item in items:
+        area = item.get("target_area") or ""
+        if area in ("全国", "不明", ""):
+            continue
+        for pref in area.split("/"):
+            pref = pref.strip()
+            if pref:
+                seen.add(pref)
+    return [p for p in PREFECTURE_ORDER if p in seen]
+
+
+# 日本標準産業分類（大分類）の公式順。jGrants industryフィールドの分割元と一致する。
+# 業種名の五十音順は読み仮名の恣意的な付与が必要になるため、代わりに一次情報である
+# 産業分類の公式順を採用する。
+INDUSTRY_ORDER = [
+    "農業", "林業", "漁業",
+    "鉱業", "採石業", "砂利採取業",
+    "建設業", "製造業",
+    "電気・ガス・熱供給・水道業", "情報通信業",
+    "運輸業", "郵便業",
+    "卸売業", "小売業",
+    "金融業", "保険業",
+    "不動産業", "物品賃貸業",
+    "学術研究", "専門・技術サービス業",
+    "宿泊業", "飲食サービス業",
+    "生活関連サービス業", "娯楽業",
+    "教育", "学習支援業",
+    "医療", "福祉",
+    "複合サービス事業",
+    "サービス業（他に分類されないもの）",
+    "公務（他に分類されるものを除く）",
+    "分類不能の産業",
+]
+
+
+def collect_available_industries(items):
+    """出現する業種を集計し、日本標準産業分類の大分類順で返す。
+    分類表にない値（表記ゆれ等）は末尾にコードポイント順で追加する。"""
+    seen = set()
+    for item in items:
+        for industry in item.get("target_industries") or []:
+            if industry and industry != "不明":
+                seen.add(industry)
+    ordered = [i for i in INDUSTRY_ORDER if i in seen]
+    unknown = sorted(seen - set(INDUSTRY_ORDER))
+    return ordered + unknown
 
 
 def load_items():
@@ -53,10 +119,17 @@ def main():
     new_items.sort(key=lambda x: x["first_seen"], reverse=True)
     new_items = new_items[:TOP_LIST_LIMIT]
 
+    available_areas = collect_available_areas(all_items)
+    available_industries = collect_available_industries(all_items)
+
     env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)), autoescape=True)
 
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     (DOCS_DIR / "s").mkdir(parents=True, exist_ok=True)
+
+    filter_js_src = STATIC_DIR / "filter.js"
+    if filter_js_src.exists():
+        shutil.copyfile(filter_js_src, DOCS_DIR / "filter.js")
 
     index_tmpl = env.get_template("index.html")
     index_html = index_tmpl.render(
@@ -66,6 +139,8 @@ def main():
         closing_soon=closing_soon,
         new_items=new_items,
         all_items=all_items,
+        available_areas=available_areas,
+        available_industries=available_industries,
     )
     (DOCS_DIR / "index.html").write_text(index_html, encoding="utf-8")
 

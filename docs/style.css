@@ -173,6 +173,71 @@ h2.section-title {
   padding: 8px 0;
 }
 
+.filter-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin: 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1 1 180px;
+  min-width: 0;
+}
+
+.filter-field-wide {
+  flex-basis: 100%;
+}
+
+.filter-field label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.filter-field select,
+.filter-field input[type="search"] {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 10px;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.filter-field select:focus,
+.filter-field input[type="search"]:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.filter-count {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .filter-row {
+    flex-direction: column;
+  }
+}
+
 .detail-header {
   background: var(--surface);
   border: 1px solid var(--border);
