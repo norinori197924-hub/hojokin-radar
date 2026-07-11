@@ -1,43 +1,38 @@
-# チェックレポート（データ取得頻度・取得件数の拡大）
+# チェックレポート（広告枠プレースホルダー追加）
 
-対象: `scripts/fetch_jgrants.py`（SEARCH_KEYWORDS拡張・REQUEST_INTERVAL_SEC変更・
-search_ids()のtry/except追加）、`.github/workflows/daily.yml`（現状確認のみ、変更なし）
+対象: `templates/_macros.html`(ad_slotマクロ新規)、`templates/index.html`、
+`templates/detail.html`、`docs/style.css`
 
 担当: checker サブエージェント
 
 ## 総合判定: CAUTION
 
-CRITICAL・明確なバグは検出なし。今回の3変更自体は意図通り機能しているが、
-キーワード拡張に伴うリクエスト数増加が既存の潜在的な弱点を顕在化させやすくして
-いる点について対応を推奨。
+CRITICAL・構文エラー・秘密情報の混入は検出なし。アクセシビリティ観点で
+1件の修正推奨事項あり。
 
 ## SAFE
 
-- `search_ids()`への`try/except requests.RequestException`追加により、
-  1キーワードの通信/HTTPエラーで検索フェーズ全体が停止する問題は解消。
-- APIキー・秘密情報のハードコードなし（jGrants公開APIは認証不要、
-  `ANTHROPIC_API_KEY`/`GA4_ID`は既存通りsecrets経由）。
-- URLクエリインジェクション・XSSのリスクなし（`requests.get(params=...)`で
-  自動エスケープ、HTML生成にも関与しない）。
-- 追加した21キーワードはいずれもjGrants APIの`keyword`仕様（2文字以上）を満たす。
-- `to_schema()`のNoneガード・「不明」/null補完ロジックは変更しておらず、
-  CLAUDE.mdの「推測でデータを補完しない」原則に反する変更はない。
-- 命名規則・ディレクトリ構成はCLAUDE.mdの既存パイプライン構成を踏襲。
+- `ad_slot(slot_id)`マクロの構文は正常、テンプレート継承にも問題なし。
+- 広告枠2箇所(`index.html`)はいずれも`#all-items-list`(filter.jsの走査対象)の
+  外側に配置されており、`data-filter-card`属性も付与していないため、
+  検索・フィルタ機能への影響なし(設計通り)。
+- `slot_id`は内部識別子のみで、AdSenseのpublisher ID等の秘密情報・実広告タグの
+  ハードコードなし。
+- `.ad-slot`は`min-height:100px`・`width:100%`でCLS対策とレスポンシブ対応を両立。
+  既存CSS変数を再利用しダークモードにも自動追従。ラベルのコントラスト比は
+  約5.03:1でWCAG AA(4.5:1)を満たす。
+- クラス命名は既存の命名規則(kebab-case)と一貫。
 
 ## CAUTION（要対応）
 
-1. **`resp.json()`のパース失敗（`json.JSONDecodeError`）が捕捉範囲外**
-   `search_ids()`・`fetch_detail()`呼び出し側どちらも`requests.RequestException`
-   のみを捕捉しており、不正/空レスポンスによる`JSONDecodeError`はスクリプト全体を
-   停止させる。既存の穴だが、キーワード拡張でAPIコール数が5→21(検索)+候補id数
-   (詳細)に増え、遭遇確率が上がった。
-2. **Actions実行時間の増加に対しtimeout-minutesが未設定**
-   `REQUEST_INTERVAL_SEC=1.1`自体はレート制限に対して妥当だが、リクエスト総数
-   増加で1回の実行時間が確実に伸びる。`daily.yml`の`update`ジョブに
-   `timeout-minutes`が設定されておらず、上限がGitHub既定値(6時間)任せになっている。
+1. **`.ad-label`の`aria-hidden="true"`により、スクリーンリーダー利用者に
+   「広告」であることが伝わらない**
+   実運用でプレースホルダーの`<p>広告スペース</p>`を削除して実広告タグを
+   差し込むと、支援技術ユーザー向けの広告明示テキストが完全に消失する。
+   景品表示法・ステマ規制の「一般消費者が広告と認識できること」という趣旨に
+   照らしても、支援技術利用者を除外する実装は望ましくない。
 
 ## 次工程
 
-CAUTION 1（JSONDecodeErrorの捕捉漏れ）は「6. 修正」で対応する。
-CAUTION 2（timeout-minutes）は実行時間の実測値を分析工程で確認したうえで
-対応要否を判断する。
+CAUTION 1は「6. 修正」で対応する(`aria-hidden="true"`を削除し、常にラベルが
+支援技術に伝わるようにする)。

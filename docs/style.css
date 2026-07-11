@@ -293,8 +293,32 @@ h2.section-title {
   margin-bottom: 16px;
 }
 
-.affiliate-slot {
-  margin: 28px 0;
+.ad-slot-wrap {
+  margin: 20px 0;
+}
+
+.ad-label {
+  display: block;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.ad-slot {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--tag-bg);
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+}
+
+.ad-slot-placeholder {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
 }
 
 footer.site-footer {

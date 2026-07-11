@@ -10,6 +10,16 @@
 {%- endif -%}
 {% endmacro %}
 
+{% macro ad_slot(slot_id) %}
+<div class="ad-slot-wrap">
+  <span class="ad-label">広告</span>
+  <div class="ad-slot" id="{{ slot_id }}">
+    <!-- ここにAdSense等の広告タグを挿入する（挿入時は下のplaceholderのpタグを削除） -->
+    <p class="ad-slot-placeholder">広告スペース</p>
+  </div>
+</div>
+{% endmacro %}
+
 {% macro subsidy_card(item, base_path, filterable=false) %}
 <div class="card"
   {%- if filterable %}

@@ -5,6 +5,8 @@
 
 {% block content %}
 
+{{ macros.ad_slot('ad-slot-index-top') }}
+
 <h2 class="section-title">締切間近</h2>
 <div class="card-list">
   {% for item in closing_soon %}
@@ -22,6 +24,8 @@
     <p class="empty-note">現在、新着の項目はありません。</p>
   {% endfor %}
 </div>
+
+{{ macros.ad_slot('ad-slot-index-list') }}
 
 <h2 class="section-title">募集中の補助金・助成金一覧（締切順）全{{ all_items|length }}件</h2>
 

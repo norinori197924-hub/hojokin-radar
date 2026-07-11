@@ -12,6 +12,8 @@
   &gt; {{ item.title }}
 </p>
 
+{{ macros.ad_slot('ad-slot-detail-top') }}
+
 <div class="detail-header">
   <h1 class="detail-title">{{ item.title }}</h1>
   <p>{{ macros.status_badge(item) }}</p>
@@ -35,7 +37,7 @@
   {% endif %}
 </div>
 
-<!-- AFFILIATE_SLOT_1 -->
+{{ macros.ad_slot('ad-slot-detail-bottom') }}
 
 <p><a class="official-link-btn" href="{{ item.official_url }}" target="_blank" rel="noopener noreferrer">公式ページを見る</a></p>
 
