@@ -5,60 +5,60 @@
 
 {% block content %}
 
+<noscript><style>#hero-search,#sort-toggle{display:none}</style></noscript>
+<section class="hero-search" id="hero-search">
+  <h1 class="hero-title">あなたに使える補助金を見つける</h1>
+
+  <div class="hero-field hero-field-keyword">
+    <label for="filter-keyword">キーワードで検索</label>
+    <input type="search" id="filter-keyword" placeholder="例: 設備投資、IT導入 など">
+  </div>
+
+  <div class="hero-field">
+    <label for="filter-area">地域（都道府県）</label>
+    <select id="filter-area">
+      <option value="">すべて</option>
+      {% for area in available_areas %}
+        <option value="{{ area }}">{{ area }}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="hero-field">
+    <span class="hero-field-label" id="purpose-chips-label">目的で選ぶ</span>
+    <div class="chip-list" id="purpose-chips" role="group" aria-labelledby="purpose-chips-label">
+      {% for keyword in purpose_keywords %}
+        {{ macros.purpose_chip(keyword, extra=(loop.index0 >= purpose_keywords_primary_count)) }}
+      {% endfor %}
+    </div>
+    {% if purpose_keywords|length > purpose_keywords_primary_count %}
+      <button type="button" class="chip-more-toggle" id="chip-more-toggle" aria-expanded="false">もっと見る</button>
+    {% endif %}
+  </div>
+
+  <div class="hero-field">
+    <label for="filter-industry">業種・対象分野</label>
+    <select id="filter-industry">
+      <option value="">すべて</option>
+      {% for industry in available_industries %}
+        <option value="{{ industry }}">{{ industry }}</option>
+      {% endfor %}
+    </select>
+  </div>
+</section>
+
 {{ macros.ad_slot('ad-slot-index-top') }}
 
-<h2 class="section-title">締切間近</h2>
-<div class="card-list">
-  {% for item in closing_soon %}
-    {{ macros.subsidy_card(item, base_path) }}
-  {% else %}
-    <p class="empty-note">現在、締切間近の項目はありません。</p>
-  {% endfor %}
-</div>
-
-<h2 class="section-title">新着</h2>
-<div class="card-list">
-  {% for item in new_items %}
-    {{ macros.subsidy_card(item, base_path) }}
-  {% else %}
-    <p class="empty-note">現在、新着の項目はありません。</p>
-  {% endfor %}
+<div class="list-toolbar">
+  <h2 class="section-title">補助金・助成金一覧 全{{ all_items|length }}件</h2>
+  <div class="sort-toggle" id="sort-toggle" role="group" aria-label="並び替え">
+    <button type="button" class="sort-btn" data-sort="deadline" aria-pressed="true">締切が近い順</button>
+    <button type="button" class="sort-btn" data-sort="new" aria-pressed="false">新着順</button>
+  </div>
+  <p class="filter-count" id="filter-count" aria-live="polite"></p>
 </div>
 
 {{ macros.ad_slot('ad-slot-index-list') }}
-
-<h2 class="section-title">募集中の補助金・助成金一覧（締切順）全{{ all_items|length }}件</h2>
-
-<noscript><style>#filter-panel{display:none}</style></noscript>
-<section class="filter-panel" id="filter-panel">
-  <div class="filter-row">
-    <div class="filter-field">
-      <label for="filter-area">都道府県</label>
-      <select id="filter-area">
-        <option value="">すべて</option>
-        {% for area in available_areas %}
-          <option value="{{ area }}">{{ area }}</option>
-        {% endfor %}
-      </select>
-    </div>
-    <div class="filter-field">
-      <label for="filter-industry">業種・対象分野</label>
-      <select id="filter-industry">
-        <option value="">すべて</option>
-        {% for industry in available_industries %}
-          <option value="{{ industry }}">{{ industry }}</option>
-        {% endfor %}
-      </select>
-    </div>
-  </div>
-  <div class="filter-row">
-    <div class="filter-field filter-field-wide">
-      <label for="filter-keyword">キーワード（補助金名・概要）</label>
-      <input type="search" id="filter-keyword" placeholder="例: 設備投資、IT導入 など">
-    </div>
-  </div>
-  <p class="filter-count" id="filter-count" aria-live="polite"></p>
-</section>
 
 <div class="card-list" id="all-items-list">
   {% for item in all_items %}

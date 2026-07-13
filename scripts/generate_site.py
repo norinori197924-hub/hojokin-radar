@@ -16,7 +16,6 @@ STATIC_DIR = ROOT / "static"
 DOCS_DIR = ROOT / "docs"
 JST = timezone(timedelta(hours=9))
 NEW_ITEM_WINDOW_DAYS = 7
-TOP_LIST_LIMIT = 10
 
 # 表示順を安定させるための行政区画順（北海道→沖縄）。
 # 実データに出現する都道府県だけをこの順で抽出する（存在しない値は追加しない）。
@@ -83,6 +82,38 @@ def collect_available_industries(items):
     return ordered + unknown
 
 
+# 目的・キーワードチップの候補語。scripts/fetch_jgrants.py の SEARCH_KEYWORDS と
+# 同じ21語（jGrants収集時に使う検索キーワード＝ユーザーが探す目的語としても妥当なため
+# 流用）。fetch_jgrants.py を import すると requests 依存が生じるため値は複製する。
+# fetch_jgrants.SEARCH_KEYWORDS を変更した場合はこちらも合わせて更新すること。
+PURPOSE_KEYWORDS = [
+    "補助", "助成", "支援", "創業", "事業",
+    "中小企業", "小規模", "スタートアップ", "事業承継",
+    "DX", "IT", "ものづくり",
+    "省エネ", "脱炭素", "環境",
+    "観光", "農業", "海外展開",
+    "人材", "女性", "賃上げ",
+]
+PURPOSE_KEYWORDS_PRIMARY_COUNT = 9
+
+
+def build_purpose_keywords(items):
+    """目的キーワードを実データでの出現頻度（タイトル・キャッチコピー・要約に
+    含まれる件数）が多い順に並べ替える。0件のキーワードも一覧末尾に残す
+    （「もっと見る」展開後も候補として選べるようにするため、除外はしない）。"""
+    def searchable_text(item):
+        parts = [item.get("title"), item.get("catch_phrase"), item.get("summary")]
+        return " ".join(p for p in parts if p).lower()
+
+    haystacks = [searchable_text(item) for item in items]
+    counts = {
+        kw: sum(1 for h in haystacks if kw.lower() in h)
+        for kw in PURPOSE_KEYWORDS
+    }
+    ordered = sorted(PURPOSE_KEYWORDS, key=lambda kw: counts[kw], reverse=True)
+    return ordered
+
+
 def load_items():
     with open(DATA_PATH, encoding="utf-8") as f:
         return json.load(f)
@@ -110,17 +141,15 @@ def main():
         key=lambda x: (x.get("deadline") is None, x.get("deadline") or ""),
     )
 
-    closing_soon = [i for i in all_items if i.get("status") == "closing_soon"][:TOP_LIST_LIMIT]
-
-    new_items = [
-        i for i in visible_items
-        if i.get("first_seen") and (today - datetime.strptime(i["first_seen"], "%Y-%m-%d").date()).days <= NEW_ITEM_WINDOW_DAYS
-    ]
-    new_items.sort(key=lambda x: x["first_seen"], reverse=True)
-    new_items = new_items[:TOP_LIST_LIMIT]
+    for item in all_items:
+        item["is_new"] = bool(
+            item.get("first_seen")
+            and (today - datetime.strptime(item["first_seen"], "%Y-%m-%d").date()).days <= NEW_ITEM_WINDOW_DAYS
+        )
 
     available_areas = collect_available_areas(all_items)
     available_industries = collect_available_industries(all_items)
+    purpose_keywords = build_purpose_keywords(all_items)
 
     env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)), autoescape=True)
 
@@ -136,11 +165,11 @@ def main():
         base_path="",
         generated_at=generated_at,
         ga4_id=ga4_id,
-        closing_soon=closing_soon,
-        new_items=new_items,
         all_items=all_items,
         available_areas=available_areas,
         available_industries=available_industries,
+        purpose_keywords=purpose_keywords,
+        purpose_keywords_primary_count=PURPOSE_KEYWORDS_PRIMARY_COUNT,
     )
     (DOCS_DIR / "index.html").write_text(index_html, encoding="utf-8")
 
@@ -155,7 +184,7 @@ def main():
         (DOCS_DIR / "s" / f"{item['id']}.html").write_text(detail_html, encoding="utf-8")
 
     print(f"Generated index.html and {len(items)} detail pages in {DOCS_DIR}")
-    print(f"  open+closing_soon shown on index: {len(all_items)}, closing_soon: {len(closing_soon)}, new: {len(new_items)}")
+    print(f"  shown on index: {len(all_items)}, new (last {NEW_ITEM_WINDOW_DAYS} days): {sum(1 for i in all_items if i['is_new'])}")
 
 
 if __name__ == "__main__":

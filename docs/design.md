@@ -1,3 +1,71 @@
+# トップページUI改善（コア体験）設計書
+
+SPEC.md（UI改善フェーズ1版, v1.1）に基づく、トップページの検索〜一覧まわりの刷新。
+
+## 1. 要件整理
+
+SPEC.md 2〜4章のとおり、検索の入口優先度（地域→目的・キーワード→業種→新着/締切ソート）
+に沿ってレイアウトを再構成する。詳細ページ・市区町村検索・広告タグ実挿入・データ取得ロジックは
+スコープ外（SPEC.md 6章）。
+
+## 2. 現状確認で判明した事実
+
+- `data/subsidies.json`（299件）は `summary` が全件空、`catch_phrase` は180/299件のみ。
+  カード要約は「catch_phraseがあれば表示、無ければ`summary`、どちらも無ければ定型文
+  『詳細ページでご確認ください。』」とする（CLAUDE.mdの「推測でデータを補完しない」原則）。
+- `scripts/fetch_jgrants.py` の `SEARCH_KEYWORDS`（21語）が、SPEC.md 8章が言う
+  「実データの21キーワード」に一致。目的チップの候補語としてこの21語を流用する
+  （fetch側の検索ロジックは変更しない。値のみ `generate_site.py` に複製）。
+- 既存の絞り込みロジック（`matchesArea`/`matchesIndustry`/`matchesKeyword`、
+  `#filter-area`/`#filter-industry`/`#filter-keyword` などのid）はそのまま維持し、
+  デグレを防止する。
+
+## 3. ページ構成（新）
+
+SPEC.md 3章の順で配置。既存の「締切間近」「新着」の2独立セクションは、単一の
+ソート可能な一覧に統合する（ユーザー承認済み）。新着案件は一覧内でNEWバッジ表示に変更。
+
+1. 検索窓（`#filter-keyword`、最上部・大）
+2. 地域選択（`#filter-area`、47都道府県セレクト）
+3. 目的・キーワードチップ（21語を実データでの出現頻度順に並べ替え、上位9件を常時表示、
+   残り12件は「もっと見る」で展開）
+4. 業種絞り込み（`#filter-industry`、既存）
+5. ソート切替（締切が近い順＝既定／新着順）
+6. 補助金一覧（カード、要約付き、カード全体がリンク）
+
+広告枠（`ad-slot-index-top`/`ad-slot-index-list`）は削除せず、ヒーロー検索の直後と
+一覧直前に配置し直す。
+
+## 4. 実装方針
+
+- `scripts/generate_site.py`: `PURPOSE_KEYWORDS`定数（21語）を追加し、
+  `build_purpose_keywords()`でタイトル・catch_phrase・summaryへの出現件数が多い順に
+  並べ替えてテンプレートへ渡す。`closing_soon`/`new_items`の個別集計をやめ、
+  各アイテムに`is_new`（first_seenが7日以内か）を付与して一覧内バッジ表示に切り替える。
+- `templates/index.html`: SPEC.md 3章の順にセクションを再構成。
+- `templates/_macros.html`: `subsidy_card`を`<a class="card">`に変更（カード全体を
+  クリック可能にし、タイトル内の入れ子`<a>`を廃止）。`data-deadline`/`data-first-seen`
+  をカードに付与し、クライアント側ソートに使う。要約表示・NEWバッジを追加。
+  目的チップ用の`purpose_chip`マクロを追加。
+- `static/filter.js`: 既存の絞り込み判定関数（`matchesArea`等）は無変更。
+  ソート切替は、初期DOM順（＝サーバー生成時点の締切昇順）を`cardsByDeadline`として
+  保持し、新着順選択時のみ`data-first-seen`降順に並べ替えた配列でDOMノードを
+  実際に移動する（複製しないため`hidden`状態はノードに紐づいたまま維持される）。
+  目的チップはクリックで`#filter-keyword`に値を反映し、既存の`matchesKeyword`
+  （部分一致）をそのまま利用する。
+- `docs/style.css`: 旧`.filter-panel`/`.filter-row`/`.filter-field`系クラスを
+  `.hero-search`/`.hero-field`/`.chip`/`.sort-toggle`系に置き換え（未使用化した
+  旧クラスは削除）。カードの要約は`-webkit-line-clamp:3`で2〜3行に収める。
+
+## 5. 既知の留意事項
+
+- 現在のデータは299件中295件の`first_seen`が直近7日以内であるため、"NEW"バッジが
+  ほぼ全カードに付く（データ取得パイプラインの特性であり、本UI改善では調整しない）。
+- 実ブラウザでの目視確認は行っていない（プロジェクト制約によりブラウザツール不使用）。
+  `generate_site.py`実行結果のHTML/CSS/JSをファイルとして確認する形で検証した。
+
+---
+
 # 広告枠プレースホルダー追加 設計書
 
 ## 1. 要件整理

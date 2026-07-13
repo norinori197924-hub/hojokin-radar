@@ -20,21 +20,41 @@
 </div>
 {% endmacro %}
 
+{% macro purpose_chip(keyword, extra=false) %}
+<button type="button" class="chip{% if extra %} chip-extra{% endif %}" data-keyword="{{ keyword }}" aria-pressed="false"{% if extra %} hidden{% endif %}>{{ keyword }}</button>
+{% endmacro %}
+
 {% macro subsidy_card(item, base_path, filterable=false) %}
-<div class="card"
+<a class="card" href="{{ base_path }}s/{{ item.id }}.html"
+  aria-label="{{ item.title }}（締切: {{ item.deadline or '随時' }}、{{ item.target_area }}）"
   {%- if filterable %}
   data-filter-card
   data-area="{{ item.target_area or '' }}"
   data-industries="{{ item.target_industries|join('|') if item.target_industries else '' }}"
   data-search="{{ [item.title, item.catch_phrase, item.summary]|select|join(' ')|lower }}"
+  data-deadline="{{ item.deadline or '' }}"
+  data-first-seen="{{ item.first_seen or '' }}"
   {%- endif %}>
-  <div class="card-title"><a href="{{ base_path }}s/{{ item.id }}.html">{{ item.title }}</a></div>
+  <div class="card-title">
+    {% if item.is_new %}<span class="badge badge-new">NEW</span>{% endif %}
+    {{ item.title }}
+  </div>
   <div class="card-meta">
     {{ status_badge(item) }}
-    <span class="badge badge-tag">{{ item.amount_text }}</span>
+    <span class="card-amount">{{ item.amount_text or "不明" }}</span>
     {% if item.category %}<span class="badge badge-tag">{{ item.category }}</span>{% endif %}
     <span>{{ item.target_area }}</span>
     {% if item.deadline %}<span>締切: {{ item.deadline }}</span>{% endif %}
   </div>
-</div>
+  <p class="card-summary">
+    {%- if item.summary -%}
+      {{ item.summary }}
+    {%- elif item.catch_phrase -%}
+      {{ item.catch_phrase }}
+    {%- else -%}
+      詳細ページでご確認ください。
+    {%- endif -%}
+  </p>
+  <span class="card-detail-link" aria-hidden="true">詳細を見る &rarr;</span>
+</a>
 {% endmacro %}

@@ -1,3 +1,62 @@
+# 分析結果（トップページUI改善）
+
+対象: `scripts/generate_site.py` / `templates/index.html` / `templates/_macros.html` /
+`templates/base.html` / `static/filter.js` / `docs/style.css`
+
+担当: analyzer サブエージェント
+
+## 1. パフォーマンス
+
+- 画像不使用・CSSはlink標準読み込み・`filter.js`は`defer`・GA4スクリプトは`async`
+  → レンダーブロッキングなし（良好）
+- **[要改善→修正済み]** ソート切替(`applySort`)が`list.appendChild()`を最大295回
+  ループ実行しており、都度リフローが発生しうる構造だった
+  → `DocumentFragment`でバッチ化してから一括appendするよう修正
+- **[将来課題]** 全295件のカードを一度にDOM生成しており、日次自動データ追加で
+  今後も件数が増加し続ける。表示件数の絞り込み・段階的読み込みの検討が将来的に
+  望ましいが、今回のUI改善フェーズのスコープ（トップの検索〜一覧のコア体験）を
+  超えるため、SPEC.md更新のうえ別途対応とする。
+
+## 2. SEO
+
+- title/meta description、h1→h2の見出し階層（今回`<h1>`をヒーロー検索見出しに
+  新設し、既存の「h1が存在しない」課題を解消）、noscript時も本文が全件表示される
+  設計（cloaking懸念なし）は良好
+- **[将来課題]** og:image・og:url・canonicalタグの未設定、JSON-LD未実装は
+  SEO観点で改善余地があるが、`templates/base.html`は詳細ページ(`detail.html`)
+  にも影響する共有テンプレートであり、かつSPEC.mdのスコープ（トップページの
+  検索・一覧UI）外のため、今回は変更しない。CLAUDE.mdにも「フェーズ2以降：
+  JSON-LD、sitemap.xml等は未着手」と明記されており、次フェーズでの対応を推奨。
+
+## 3. GA4計測
+
+- GA4スニペットは`base.html`に1箇所のみでmeasurement ID二重挿入のリスクなし
+- **[要改善→修正済み]** 目的キーワードチップのON/OFF操作で`trackFilterUse`に渡す
+  値が常に同一（`isActive`による分岐が計測に反映されていなかった）ため、GA4上で
+  「絞り込み適用」と「解除」が区別できない状態だった
+  → `filter_action`（apply/clear）パラメータを追加し、区別できるよう修正
+- **[要改善→修正済み]** 既に選択中のソートボタンを再クリックしても無条件で
+  イベント送信され、同一操作が水増し計上される状態だった
+  → 現在の選択と同じ場合は送信しないガードを追加
+- **[将来課題]** GA4_ID未設定時にビルドは成功するが計測タグが無音で欠落する。
+  CI側でのsecret存在チェック等の運用改善は本UI改善のスコープ外とする。
+
+## 修正サマリ（本レポート作成後に適用）
+
+- `static/filter.js`: ソートのDOM操作をDocumentFragmentでバッチ化
+- `static/filter.js`: chipクリックのGA4イベントに`filter_action`(apply/clear)を追加
+- `static/filter.js`: ソート再クリック時の重複イベント送信を抑止
+
+## 対応しなかった項目とその理由
+
+- OGP画像/canonical/JSON-LD追加、ページネーション導入、GA4_ID未設定時のCIチェック
+  強化は、いずれも今回のSPEC.md（トップページ検索〜一覧のコア体験改善）の対象外、
+  または`base.html`など詳細ページにも影響する共有部分の変更となるため、
+  ユーザー承認済みのスコープを超えると判断し、今回は変更していない。
+  対応する場合はSPEC.mdの更新・承認を先に行う。
+
+---
+
 # 分析レポート（広告枠プレースホルダー追加）
 
 担当: analyzer サブエージェント（パフォーマンス・SEO・GA4観点）
