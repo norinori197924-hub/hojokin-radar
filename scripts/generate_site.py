@@ -181,6 +181,15 @@ def main():
     )
     (DOCS_DIR / "index.html").write_text(index_html, encoding="utf-8")
 
+    for page_name in ("privacy-policy.html", "about.html"):
+        page_tmpl = env.get_template(page_name)
+        page_html = page_tmpl.render(
+            base_path="",
+            generated_at=generated_at,
+            ga4_id=ga4_id,
+        )
+        (DOCS_DIR / page_name).write_text(page_html, encoding="utf-8")
+
     detail_tmpl = env.get_template("detail.html")
     for item in items:
         detail_html = detail_tmpl.render(

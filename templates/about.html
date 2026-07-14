@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}運営者情報 | 補助金レーダー{% endblock %}
+{% block description %}補助金レーダーの運営者情報。サイトの目的・運営方針・連絡先について説明します。{% endblock %}
+
+{% block content %}
+
+<p class="breadcrumbs">
+  <a href="{{ base_path }}index.html">トップ</a> &gt; 運営者情報
+</p>
+
+<h1 class="detail-title">運営者情報</h1>
+
+<h2 class="section-title">サイトについて</h2>
+<p>補助金レーダーは、全国の補助金・助成金情報を収集し、締切順・地域別・目的別に整理して
+掲載する個人運営サイトです。「自分に使える補助金を最短で見つけられること」を目的としています。</p>
+
+<h2 class="section-title">運営者</h2>
+<p>運営者:NORI</p>
+
+<h2 class="section-title">掲載情報について</h2>
+<p>掲載している各情報には、必ず一次情報源(jGrants等の公式ページ)へのリンクを設けています。
+募集内容・締切等の詳細は、必ず一次情報源の公式ページでご確認ください。
+本サイトは公開情報の整理を行うものであり、掲載内容の正確性を保証するものではありません
+(詳細は各ページの免責表示をご覧ください)。</p>
+
+<h2 class="section-title">お問い合わせ</h2>
+<p>連絡先メールアドレス: norinori197924@gmail.com</p>
+
+<h2 class="section-title">プライバシーポリシー</h2>
+<p>アクセス解析・Cookieの利用については、<a href="{{ base_path }}privacy-policy.html">プライバシーポリシー</a>をご覧ください。</p>
+
+{% endblock %}
