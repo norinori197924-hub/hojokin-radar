@@ -80,3 +80,47 @@ CRITICAL・構文エラー・秘密情報の混入は検出なし。アクセシ
 
 CAUTION 1は「6. 修正」で対応する(`aria-hidden="true"`を削除し、常にラベルが
 支援技術に伝わるようにする)。
+
+---
+
+# チェックレポート（SPEC.md セクション9 v1.2追加改善）
+
+対象差分: `templates/index.html`（hero-lead追加・description block追加・
+filter-feedback/clear-btn追加）、`scripts/generate_site.py`
+（PURPOSE_KEYWORDS_EXCLUDED追加）、`static/filter.js`（フィードバック文言生成・
+クリア処理追加）、`docs/style.css`（.hero-lead/.filter-feedback/.filter-clear-btn）
+
+担当: checker サブエージェント
+
+## 総合判定: SAFE（CAUTION 2件は本レポート作成前に修正済み、1件はSPEC.md更新で解消）
+
+## CAUTION（修正済み）
+
+1. `#filter-clear-btn`クリック後、ボタン自身が`hidden`になりキーボード/
+   スクリーンリーダー利用者のフォーカスが行方不明になる可能性
+   → `static/filter.js`のクリック処理末尾で`keywordInput.focus()`を呼び、
+   絞り込み条件欄の先頭へフォーカスを明示的に移すよう修正。
+2. `.filter-clear-btn`の`min-height`が32pxで、既存の`.chip`/`.sort-btn`(36px)と
+   不揃いだった → 36pxに統一。
+
+## 備考（SPEC.md更新で解消）
+
+- SPEC.md 9-2の例文は単一条件時「『人材』で絞り込み中：34件」・複数条件時
+  「東京都 × IT導入：12件」と書式が異なっていたが、着手前のヒアリングで
+  ユーザーが「条件数によらない統一フォーマット（例: 〇〇 × △△：N件、単一時は
+  『』を付けない）」を採用する方針を確定。SPEC.md 9-2を実装内容に合わせて
+  更新済み（仕様変更時は先にSPEC.mdを更新するというCLAUDE.mdの原則に従う）。
+
+## SAFE（指摘なし）
+
+- ハードコードされた秘密情報・APIキーなし
+- 既存の`matchesArea`/`matchesIndustry`/`matchesKeyword`・ソート・チップ
+  クリックロジックは変更なし（デグレなし）
+- `PURPOSE_KEYWORDS_EXCLUDED`は`PURPOSE_KEYWORDS`実在語のみを列挙しており、
+  新規語の創作なし。頻度順ロジック（`sorted`のstable性）も維持
+- 新規CSSは既存のCSS変数のみを使用しライト/ダーク両テーマに追従。
+  375px幅想定の`@media (max-width: 480px)`にも追記済み
+- `#filter-count`の`aria-live="polite"`は維持されており、フィードバック文言の
+  動的更新がスクリーンリーダーに通知される
+- meta description / og:description は静的な確定文面でエスケープ無効化なし。
+  一次情報リンク・免責フッターの構造に変更なし

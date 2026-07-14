@@ -96,11 +96,18 @@ PURPOSE_KEYWORDS = [
 ]
 PURPOSE_KEYWORDS_PRIMARY_COUNT = 9
 
+# 補助金サイトでは自明で絞り込みに寄与しない汎用語（v1.2 SPEC 9-4）。
+# 前面（primary）表示から外すが、検索対象からは外さず「もっと見る」内に残す。
+# 新規語は創作せず、PURPOSE_KEYWORDS に実在する語のみを列挙する。
+PURPOSE_KEYWORDS_EXCLUDED = {"補助", "助成", "支援", "事業", "中小企業"}
+
 
 def build_purpose_keywords(items):
     """目的キーワードを実データでの出現頻度（タイトル・キャッチコピー・要約に
     含まれる件数）が多い順に並べ替える。0件のキーワードも一覧末尾に残す
-    （「もっと見る」展開後も候補として選べるようにするため、除外はしない）。"""
+    （「もっと見る」展開後も候補として選べるようにするため、除外はしない）。
+    ただし PURPOSE_KEYWORDS_EXCLUDED に含まれる汎用語は、頻度順ロジックは
+    維持したまま前面表示の対象外とするため、非汎用語グループの後ろに回す。"""
     def searchable_text(item):
         parts = [item.get("title"), item.get("catch_phrase"), item.get("summary")]
         return " ".join(p for p in parts if p).lower()
@@ -111,7 +118,9 @@ def build_purpose_keywords(items):
         for kw in PURPOSE_KEYWORDS
     }
     ordered = sorted(PURPOSE_KEYWORDS, key=lambda kw: counts[kw], reverse=True)
-    return ordered
+    included = [kw for kw in ordered if kw not in PURPOSE_KEYWORDS_EXCLUDED]
+    excluded = [kw for kw in ordered if kw in PURPOSE_KEYWORDS_EXCLUDED]
+    return included + excluded
 
 
 def load_items():

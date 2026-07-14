@@ -7,6 +7,7 @@
   var industrySelect = document.getElementById("filter-industry");
   var keywordInput = document.getElementById("filter-keyword");
   var countLabel = document.getElementById("filter-count");
+  var clearBtn = document.getElementById("filter-clear-btn");
   var noMatch = document.getElementById("filter-no-match");
   if (!hero || !list || !areaSelect || !industrySelect || !keywordInput || !countLabel) return;
 
@@ -41,23 +42,37 @@
     return haystack.indexOf(keyword) !== -1;
   }
 
+  function buildFeedbackText(labels, visibleCount) {
+    if (labels.length === 0) {
+      return "全" + cards.length + "件を表示中";
+    }
+    return labels.join(" × ") + "：" + visibleCount + "件";
+  }
+
   function applyFilters() {
     var area = areaSelect.value;
     var industry = industrySelect.value;
-    var keyword = keywordInput.value.trim().toLowerCase();
+    var keyword = keywordInput.value.trim();
+    var keywordLower = keyword.toLowerCase();
 
     var visibleCount = 0;
     cards.forEach(function (card) {
       var visible =
         matchesArea(card, area) &&
         matchesIndustry(card, industry) &&
-        matchesKeyword(card, keyword);
+        matchesKeyword(card, keywordLower);
       card.hidden = !visible;
       if (visible) visibleCount++;
     });
 
-    countLabel.textContent = "該当: " + visibleCount + "件 / 全" + cards.length + "件";
+    var labels = [];
+    if (area) labels.push(area);
+    if (keyword) labels.push(keyword);
+    if (industry) labels.push(industry);
+
+    countLabel.textContent = buildFeedbackText(labels, visibleCount);
     if (noMatch) noMatch.hidden = visibleCount !== 0;
+    if (clearBtn) clearBtn.hidden = labels.length === 0;
   }
 
   function debounce(fn, waitMs) {
@@ -85,6 +100,20 @@
   keywordInput.addEventListener("change", function () {
     trackFilterUse("keyword", keywordInput.value.trim());
   });
+
+  if (clearBtn) {
+    clearBtn.addEventListener("click", function () {
+      areaSelect.value = "";
+      industrySelect.value = "";
+      keywordInput.value = "";
+      applyFilters();
+      updateChipPressedStates();
+      trackFilterUse("clear", "all");
+      // クリアボタンはこの後 hidden になるため、フォーカスが行方不明にならないよう
+      // 絞り込み条件欄の先頭（キーワード入力）へ移す。
+      keywordInput.focus();
+    });
+  }
 
   // 並び替え: 締切が近い順（サーバー生成時点の既定順）/ 新着順（first_seen降順）。
   // カードのDOMノードを実際に並べ替える（複製はしない）ため、hidden属性は

@@ -1,13 +1,16 @@
 {% extends "base.html" %}
 {% import "_macros.html" as macros %}
+{% set hero_lead_text = "全国の補助金・助成金情報を毎日自動収集し、締切順に整理。地域・目的・業種からかんたんに検索できます。すべて公式ページへのリンク付き。" %}
 
 {% block title %}補助金レーダー | 補助金・助成金を締切順に自動収集{% endblock %}
+{% block description %}{{ hero_lead_text }}{% endblock %}
 
 {% block content %}
 
 <noscript><style>#hero-search,#sort-toggle{display:none}</style></noscript>
 <section class="hero-search" id="hero-search">
   <h1 class="hero-title">あなたに使える補助金を見つける</h1>
+  <p class="hero-lead">{{ hero_lead_text }}</p>
 
   <div class="hero-field hero-field-keyword">
     <label for="filter-keyword">キーワードで検索</label>
@@ -55,7 +58,10 @@
     <button type="button" class="sort-btn" data-sort="deadline" aria-pressed="true">締切が近い順</button>
     <button type="button" class="sort-btn" data-sort="new" aria-pressed="false">新着順</button>
   </div>
-  <p class="filter-count" id="filter-count" aria-live="polite"></p>
+  <div class="filter-feedback">
+    <p class="filter-count" id="filter-count" aria-live="polite">全{{ all_items|length }}件を表示中</p>
+    <button type="button" class="filter-clear-btn" id="filter-clear-btn" hidden>絞り込みをクリア</button>
+  </div>
 </div>
 
 {{ macros.ad_slot('ad-slot-index-list') }}
