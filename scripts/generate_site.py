@@ -2,7 +2,6 @@
 フェーズ1: トップページ(index.html)と個別詳細ページ(s/{id}.html)のみ。
 """
 import json
-import os
 import shutil
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -138,7 +137,7 @@ def compute_days_left(deadline_str, today):
 def main():
     today = datetime.now(JST).date()
     generated_at = datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
-    ga4_id = os.environ.get("GA4_ID") or None
+    ga4_id = "G-NKJELNWQKD"
 
     items = load_items()
     for item in items:
