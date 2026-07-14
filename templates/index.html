@@ -64,8 +64,6 @@
   </div>
 </div>
 
-{{ macros.ad_slot('ad-slot-index-list') }}
-
 <div class="card-list" id="all-items-list">
   {% for item in all_items %}
     {{ macros.subsidy_card(item, base_path, filterable=true) }}
@@ -76,6 +74,8 @@
     <p class="empty-note" id="filter-no-match" hidden>条件に一致する補助金がありません。条件を変更してお試しください。</p>
   {% endif %}
 </div>
+
+{{ macros.ad_slot('ad-slot-index-bottom') }}
 
 {% endblock %}
 

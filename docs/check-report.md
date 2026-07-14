@@ -124,3 +124,50 @@ filter-feedback/clear-btn追加）、`scripts/generate_site.py`
   動的更新がスクリーンリーダーに通知される
 - meta description / og:description は静的な確定文面でエスケープ無効化なし。
   一次情報リンク・免責フッターの構造に変更なし
+
+---
+
+# チェックレポート（SPEC.md セクション10 v1.3追加改善）
+
+対象差分: `templates/base.html`（`.site-tagline`削除）、`templates/index.html`
+（広告枠の削除・新設）、`docs/style.css`（`.site-tagline`削除、カラートークン
+更新、`.hero-search`グラデーション、`.card`ホバー効果、`.badge-new`box-shadow）
+
+担当: checker サブエージェント
+
+## 総合判定: SAFE（CRITICAL・CAUTIONともになし）
+
+## SAFE（指摘なし）
+
+- `.site-tagline`削除により、SPEC.md 10-1どおり「サイト名→キャッチコピー→
+  リード文」の3段構成が実現されている。header/footer構造・免責表示は無変更
+- 広告枠は`ad-slot-index-top`（検索エリア下）と`ad-slot-index-bottom`
+  （`#all-items-list`外側の一覧最下部）の2箇所のみとなり、見出し直下の広告枠は
+  削除済み（SPEC.md 10-2に合致）
+- `ad-slot-index-bottom`が`#all-items-list`の外側にあるため、`static/filter.js`の
+  `applySort()`（DocumentFragmentでのカード再配置処理）に巻き込まれず、ソート時に
+  広告枠が消失・移動する不具合はない
+- 新配色（`--danger`/`--danger-bg`/`--success-bg`/`--success-text`）は4テーマ
+  ブロック（`:root`/`prefers-color-scheme: dark`/`data-theme="dark"`/
+  `data-theme="light"`）すべてに反映され、コントラスト比は約5.1:1〜9.2:1で
+  WCAG AA（4.5:1）を満たす（旧配色より改善）
+- `.card`の`transition`/`transform`に対し`prefers-reduced-motion: reduce`で
+  無効化する`@media`が追加されており、アクセシビリティ配慮が適切
+- `.card:focus-visible`のoutlineスタイルはホバー効果追加と競合せず、キーボード
+  フォーカス時の可視性は維持されている
+- `.hero-search`の薄いブルーグラデーションもlight/dark双方に定義されており、
+  背景変更によるテキストコントラスト低下は見られない
+- 目的チップ（`.chip`系マークアップ・CSS・`static/filter.js`のチップ処理）は
+  今回の差分に含まれておらず、挙動・見た目は変更されていない（SPEC.md 10-4の
+  スコープ外要件を遵守）
+- `body`の`font-family`宣言は変更なし（同10-4を遵守）
+- ハードコードされた秘密情報・APIキーなし（GA4_IDは環境変数由来）
+- 生成済みHTML（`docs/index.html`、`docs/s/*.html`）にもヘッダー変更・広告枠
+  変更が正しく反映されており、テンプレートと実出力に乖離なし
+
+## 備考
+
+- `docs/design.md`の初期フェーズ（v1.1）設計セクションに旧`ad-slot-index-list`
+  への言及が残っているが、これは設計メモの過去記録であり実装ファイルではない
+  ため今回の判定に影響しない。v1.3分の設計セクションを`docs/design.md`に追記し、
+  最新の広告枠構成を記録した。
