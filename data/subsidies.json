@@ -20,7 +20,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDNujMAH",
     "status": "closed",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY2TMAX",
@@ -44,7 +44,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY2TMAX",
     "status": "closed",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaTDMA1",
@@ -98,7 +98,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaTDMA1",
     "status": "closed",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaTFMA1",
@@ -152,7 +152,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaTFMA1",
     "status": "closed",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDa47MAD",
@@ -227,7 +227,7 @@
     "category": null,
     "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXkTMAX",
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXkTMAX",
-    "status": "closing_soon",
+    "status": "closed",
     "first_seen": "2026-07-10",
     "last_updated": "2026-07-14"
   },
@@ -279,31 +279,7 @@
     "category": null,
     "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYwlMAH",
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYwlMAH",
-    "status": "closing_soon",
-    "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
-  },
-  {
-    "id": "jgrants-a0WJ200000CDYslMAH",
-    "source": "jgrants",
-    "title": "「太陽光発電導入拡大等技術開発事業／NEDOプロジェクトを核とした人材育成、産学連携等の総合的展開／ペロブスカイト太陽電池の研究開発・実装を担う人材育成特別講座」の公募",
-    "organization": "P25011_太陽光発電導入拡大等技術開発事業",
-    "catch_phrase": null,
-    "summary": null,
-    "amount_max": null,
-    "amount_text": "不明",
-    "subsidy_rate": null,
-    "deadline": "2026-07-14",
-    "start_date": "2026-06-10",
-    "target_industries": [
-      "学術研究",
-      "専門・技術サービス業"
-    ],
-    "target_area": "全国",
-    "category": null,
-    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYslMAH",
-    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYslMAH",
-    "status": "closing_soon",
+    "status": "closed",
     "first_seen": "2026-07-10",
     "last_updated": "2026-07-14"
   },
@@ -359,7 +335,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000ZueXcEAJ",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYPkMAP",
@@ -412,7 +388,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYPkMAP",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYU0MAP",
@@ -466,7 +442,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYU0MAP",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZdmMAH",
@@ -490,7 +466,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZdmMAH",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDb81MAD",
@@ -544,7 +520,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb81MAD",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDa1WMAT",
@@ -598,7 +574,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa1WMAT",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYjqMAH",
@@ -622,7 +598,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYjqMAH",
     "status": "closing_soon",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYvOMAX",
@@ -676,7 +652,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYvOMAX",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbq0MAD",
@@ -710,7 +686,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbq0MAD",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaSiMAL",
@@ -764,7 +740,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSiMAL",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaSjMAL",
@@ -818,7 +794,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSjMAL",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaSnMAL",
@@ -872,7 +848,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSnMAL",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaSsMAL",
@@ -926,7 +902,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSsMAL",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaSxMAL",
@@ -980,7 +956,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSxMAL",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaT2MAL",
@@ -1034,7 +1010,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaT2MAL",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbpvMAD",
@@ -1060,7 +1036,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbpvMAD",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDPL5MAP",
@@ -1085,7 +1061,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDPL5MAP",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZIyMAP",
@@ -1139,7 +1115,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZIyMAP",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYMuMAP",
@@ -1171,7 +1147,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYMuMAP",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDO8eMAH",
@@ -1198,7 +1174,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDO8eMAH",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYLLMA5",
@@ -1221,7 +1197,85 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYLLMA5",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
+  },
+  {
+    "id": "jgrants-a0WJ200000CDYslMAH",
+    "source": "jgrants",
+    "title": "「太陽光発電導入拡大等技術開発事業／NEDOプロジェクトを核とした人材育成、産学連携等の総合的展開／ペロブスカイト太陽電池の研究開発・実装を担う人材育成特別講座」の公募",
+    "organization": "P25011_太陽光発電導入拡大等技術開発事業",
+    "catch_phrase": null,
+    "summary": null,
+    "amount_max": null,
+    "amount_text": "不明",
+    "subsidy_rate": null,
+    "deadline": "2026-07-23",
+    "start_date": "2026-06-10",
+    "target_industries": [
+      "学術研究",
+      "専門・技術サービス業"
+    ],
+    "target_area": "全国",
+    "category": null,
+    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYslMAH",
+    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYslMAH",
+    "status": "closing_soon",
+    "first_seen": "2026-07-10",
+    "last_updated": "2026-07-15"
+  },
+  {
+    "id": "jgrants-a0WJ200000CDc1IMAT",
+    "source": "jgrants",
+    "title": "第１３回（令和８年度第２回）躍進的な事業推進のための設備投資支援事業",
+    "organization": "躍進的な事業推進のための設備投資支援事業",
+    "catch_phrase": "都内中小企業の「稼ぐ力」を強化し、新たな事業展開やイノベーション創出を促す「設備投資の助成金」",
+    "summary": null,
+    "amount_max": 200000000,
+    "amount_text": "最大200,000,000円",
+    "subsidy_rate": "事業区分に応じて助成対象経費の1/2、2/3、3/4、4/5以内のいずれか（詳細については募集要項を参照）",
+    "deadline": "2026-07-23",
+    "start_date": "2026-07-14",
+    "target_industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "target_area": "茨城県/栃木県/群馬県/埼玉県/千葉県/東京都/神奈川県/山梨県",
+    "category": null,
+    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc1IMAT",
+    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc1IMAT",
+    "status": "closing_soon",
+    "first_seen": "2026-07-15",
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDapmMAD",
@@ -1272,7 +1326,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDapmMAD",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaphMAD",
@@ -1323,7 +1377,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaphMAD",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaplMAD",
@@ -1374,7 +1428,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaplMAD",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYUSMA5",
@@ -1411,7 +1465,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUSMA5",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYkiMAH",
@@ -1435,7 +1489,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYkiMAH",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDapiMAD",
@@ -1486,7 +1540,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDapiMAD",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDapjMAD",
@@ -1537,7 +1591,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDapjMAD",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDapgMAD",
@@ -1588,7 +1642,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDapgMAD",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDapkMAD",
@@ -1639,7 +1693,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDapkMAD",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbzXMAT",
@@ -1669,7 +1723,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbzXMAT",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZd3MAH",
@@ -1723,7 +1777,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZd3MAH",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYCgMAP",
@@ -1749,7 +1803,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYCgMAP",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXxyMAH",
@@ -1775,7 +1829,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXxyMAH",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYkCMAX",
@@ -1828,7 +1882,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYkCMAX",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYjRMAX",
@@ -1881,7 +1935,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYjRMAX",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDapWMAT",
@@ -1935,7 +1989,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDapWMAT",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYk0MAH",
@@ -1988,7 +2042,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYk0MAH",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYiwMAH",
@@ -2041,7 +2095,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYiwMAH",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYkHMAX",
@@ -2094,7 +2148,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYkHMAX",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbyeMAD",
@@ -2118,7 +2172,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbyeMAD",
     "status": "closing_soon",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbJKMA1",
@@ -2172,7 +2226,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbJKMA1",
     "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbonMAD",
@@ -2196,7 +2250,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbonMAD",
     "status": "closing_soon",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDc1RMAT",
@@ -2248,9 +2302,9 @@
     "category": null,
     "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc1RMAT",
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc1RMAT",
-    "status": "open",
+    "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDcfNMAT",
@@ -2302,9 +2356,9 @@
     "category": null,
     "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcfNMAT",
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcfNMAT",
-    "status": "open",
+    "status": "closing_soon",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDKZFMA5",
@@ -2336,7 +2390,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDKZFMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDc0JMAT",
@@ -2360,7 +2414,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc0JMAT",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbHOMA1",
@@ -2414,7 +2468,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbHOMA1",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbPkMAL",
@@ -2468,7 +2522,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbPkMAL",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDVdPMAX",
@@ -2492,7 +2546,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVdPMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZz1MAH",
@@ -2515,7 +2569,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZz1MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDckfMAD",
@@ -2569,7 +2623,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDckfMAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDcyEMAT",
@@ -2623,7 +2677,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcyEMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY36MAH",
@@ -2676,7 +2730,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY36MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYkxMAH",
@@ -2728,7 +2782,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYkxMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbnoMAD",
@@ -2765,7 +2819,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbnoMAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDcO3MAL",
@@ -2817,7 +2871,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcO3MAL",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDcO8MAL",
@@ -2869,7 +2923,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcO8MAL",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDcO9MAL",
@@ -2921,7 +2975,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcO9MAL",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDanIMAT",
@@ -2975,7 +3029,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDanIMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDamPMAT",
@@ -3029,7 +3083,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDamPMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXoQMAX",
@@ -3053,7 +3107,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXoQMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY71MAH",
@@ -3077,7 +3131,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY71MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY70MAH",
@@ -3101,7 +3155,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY70MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbPBMA1",
@@ -3124,7 +3178,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbPBMA1",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaL8MAL",
@@ -3148,7 +3202,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaL8MAL",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYv8MAH",
@@ -3172,7 +3226,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYv8MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDc0OMAT",
@@ -3226,7 +3280,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc0OMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbfKMAT",
@@ -3280,7 +3334,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbfKMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaLwMAL",
@@ -3303,7 +3357,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaLwMAL",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaMVMA1",
@@ -3326,7 +3380,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaMVMA1",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZipMAH",
@@ -3350,7 +3404,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZipMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDcQsMAL",
@@ -3404,12 +3458,12 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcQsMAL",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYSeMAP",
     "source": "jgrants",
-    "title": "東京都医療機関等における賃上げ・物価上昇に対する支援事業(助産所、施術所、歯科技工所　申請用）",
+    "title": "×",
     "organization": "東京都医療機関等における賃上げ・物価上昇に対する支援事業",
     "catch_phrase": null,
     "summary": null,
@@ -3428,12 +3482,12 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSeMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDacHMAT",
     "source": "jgrants",
-    "title": "東京都医療機関等における賃上げ・物価上昇に対する支援事業(診療所、訪問看護ステーション　申請用）",
+    "title": "東京都医療機関等における賃上げ・物価上昇に対する支援事業(診療所・歯科診療所、訪問看護ステーション　申請用）",
     "organization": "東京都医療機関等における賃上げ・物価上昇に対する支援事業",
     "catch_phrase": null,
     "summary": null,
@@ -3452,7 +3506,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDacHMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZBgMAP",
@@ -3505,7 +3559,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZBgMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaTEMA1",
@@ -3559,7 +3613,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaTEMA1",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaTGMA1",
@@ -3613,7 +3667,31 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaTGMA1",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
+  },
+  {
+    "id": "jgrants-a0WJ200000CDc0sMAD",
+    "source": "jgrants",
+    "title": "「次世代冷却に係るマテリアル・デバイスの開発動向に関する調査」の公募",
+    "organization": "P99029_戦略策定調査事業",
+    "catch_phrase": null,
+    "summary": null,
+    "amount_max": null,
+    "amount_text": "不明",
+    "subsidy_rate": null,
+    "deadline": "2026-08-17",
+    "start_date": "2026-07-14",
+    "target_industries": [
+      "学術研究",
+      "専門・技術サービス業"
+    ],
+    "target_area": "全国",
+    "category": null,
+    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc0sMAD",
+    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc0sMAD",
+    "status": "open",
+    "first_seen": "2026-07-15",
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYtoMAH",
@@ -3667,7 +3745,37 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYtoMAH",
     "status": "open",
     "first_seen": "2026-07-14",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
+  },
+  {
+    "id": "jgrants-a0WJ200000CDdNjMAL",
+    "source": "jgrants",
+    "title": "スタートアップ等を活用した農林水産分野の課題解決事業補助金",
+    "organization": "スタートアップ等を活用した農林水産分野の課題解決事業",
+    "catch_phrase": null,
+    "summary": null,
+    "amount_max": null,
+    "amount_text": "不明",
+    "subsidy_rate": "補助対象経費の２／３以内",
+    "deadline": "2026-08-21",
+    "start_date": "2026-07-14",
+    "target_industries": [
+      "漁業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "農業",
+      "林業",
+      "学術研究",
+      "専門・技術サービス業"
+    ],
+    "target_area": "全国",
+    "category": null,
+    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNjMAL",
+    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNjMAL",
+    "status": "open",
+    "first_seen": "2026-07-15",
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDb8QMAT",
@@ -3691,7 +3799,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb8QMAT",
     "status": "open",
     "first_seen": "2026-07-14",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaMLMA1",
@@ -3744,7 +3852,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaMLMA1",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaMQMA1",
@@ -3797,7 +3905,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaMQMA1",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDPbMMAX",
@@ -3847,7 +3955,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDPbMMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYEHMA5",
@@ -3899,7 +4007,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYEHMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYUNMA5",
@@ -3952,7 +4060,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUNMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDWngMAH",
@@ -3976,7 +4084,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDWngMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXuqMAH",
@@ -4000,7 +4108,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXuqMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDb6JMAT",
@@ -4054,7 +4162,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb6JMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDcODMA1",
@@ -4077,7 +4185,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcODMA1",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDTzMMAX",
@@ -4131,7 +4239,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDTzMMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYcpMAH",
@@ -4154,7 +4262,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYcpMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYr0MAH",
@@ -4206,7 +4314,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYr0MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYEIMA5",
@@ -4258,7 +4366,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYEIMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W2x000004PhCHEA0",
@@ -4281,7 +4389,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000004PhCHEA0",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY6tMAH",
@@ -4305,7 +4413,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6tMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZ2OMAX",
@@ -4328,7 +4436,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ2OMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYQnMAP",
@@ -4381,7 +4489,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYQnMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYQoMAP",
@@ -4434,7 +4542,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYQoMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYRHMA5",
@@ -4487,7 +4595,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYRHMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W2x000007Cos5EAC",
@@ -4540,7 +4648,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007Cos5EAC",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYaFMAX",
@@ -4594,7 +4702,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYaFMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDPyeMAH",
@@ -4644,7 +4752,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDPyeMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYzVMAX",
@@ -4673,7 +4781,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYzVMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZ1GMAX",
@@ -4701,7 +4809,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ1GMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZ04MAH",
@@ -4730,7 +4838,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ04MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY6uMAH",
@@ -4754,7 +4862,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6uMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaotMAD",
@@ -4788,7 +4896,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaotMAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDczHMAT",
@@ -4841,7 +4949,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDczHMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDczMMAT",
@@ -4894,7 +5002,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDczMMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY4mMAH",
@@ -4917,7 +5025,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY4mMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYbNMAX",
@@ -4969,7 +5077,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYbNMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZDHMA5",
@@ -4997,7 +5105,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZDHMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZXbMAP",
@@ -5051,7 +5159,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZXbMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDd3OMAT",
@@ -5105,7 +5213,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd3OMAT",
     "status": "open",
     "first_seen": "2026-07-14",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDd3YMAT",
@@ -5159,7 +5267,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd3YMAT",
     "status": "open",
     "first_seen": "2026-07-14",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYzQMAX",
@@ -5201,7 +5309,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYzQMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY5GMAX",
@@ -5224,7 +5332,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY5GMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZzQMAX",
@@ -5256,7 +5364,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZzQMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYfxMAH",
@@ -5310,7 +5418,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYfxMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYsRMAX",
@@ -5342,7 +5450,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYsRMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYUmMAP",
@@ -5366,7 +5474,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUmMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZIAMA5",
@@ -5420,7 +5528,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZIAMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZy8MAH",
@@ -5473,7 +5581,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZy8MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDa1gMAD",
@@ -5527,7 +5635,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa1gMAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDa1bMAD",
@@ -5581,7 +5689,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa1bMAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYEGMA5",
@@ -5634,7 +5742,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYEGMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXvUMAX",
@@ -5658,7 +5766,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXvUMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXyuMAH",
@@ -5712,7 +5820,61 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXyuMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
+  },
+  {
+    "id": "jgrants-a0WJ200000CDbYxMAL",
+    "source": "jgrants",
+    "title": "女性活躍情報公開促進奨励金　中止届",
+    "organization": "令和８年度　女性活躍情報公開促進奨励金",
+    "catch_phrase": "女性が活躍できる職場づくりを全力でサポート",
+    "summary": null,
+    "amount_max": 200000,
+    "amount_text": "最大200,000円",
+    "subsidy_rate": null,
+    "deadline": "2026-11-30",
+    "start_date": "2026-07-14",
+    "target_industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "target_area": "東京都",
+    "category": null,
+    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbYxMAL",
+    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbYxMAL",
+    "status": "open",
+    "first_seen": "2026-07-15",
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYDCMA5",
@@ -5736,7 +5898,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYDCMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYR2MAP",
@@ -5789,7 +5951,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYR2MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXmVMAX",
@@ -5841,7 +6003,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXmVMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDX1KMAX",
@@ -5866,7 +6028,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDX1KMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYBxMAP",
@@ -5918,7 +6080,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYBxMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYC7MAP",
@@ -5972,7 +6134,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYC7MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDb6TMAT",
@@ -6000,7 +6162,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb6TMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDb6YMAT",
@@ -6038,7 +6200,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb6YMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDb6dMAD",
@@ -6073,7 +6235,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb6dMAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZyDMAX",
@@ -6126,7 +6288,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZyDMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZyIMAX",
@@ -6178,7 +6340,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZyIMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYUlMAP",
@@ -6202,7 +6364,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUlMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W2x000007CStEEAW",
@@ -6226,7 +6388,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007CStEEAW",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W2x000007CStOEAW",
@@ -6303,7 +6465,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVkeMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYTvMAP",
@@ -6355,7 +6517,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYTvMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY6KMAX",
@@ -6409,7 +6571,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6KMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbpCMAT",
@@ -6461,7 +6623,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbpCMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbPLMA1",
@@ -6514,7 +6676,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbPLMA1",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDHQZMA5",
@@ -6538,7 +6700,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDHQZMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYUPMA5",
@@ -6563,7 +6725,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUPMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYUQMA5",
@@ -6588,7 +6750,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUQMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYZ7MAP",
@@ -6638,7 +6800,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYZ7MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDQuHMAX",
@@ -6662,7 +6824,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDQuHMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY7KMAX",
@@ -6685,7 +6847,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY7KMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbYvMAL",
@@ -6739,7 +6901,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbYvMAL",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbYuMAL",
@@ -6793,7 +6955,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbYuMAL",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDK7NMAX",
@@ -6845,7 +7007,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDK7NMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDK7OMAX",
@@ -6897,7 +7059,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDK7OMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDWZ9MAP",
@@ -6951,7 +7113,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDWZ9MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYq2MAH",
@@ -7005,7 +7167,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYq2MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXRpMAP",
@@ -7059,7 +7221,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXRpMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZDCMA5",
@@ -7085,7 +7247,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZDCMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W5h00000ZuemGEAR",
@@ -7139,7 +7301,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000ZuemGEAR",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDMSsMAP",
@@ -7164,7 +7326,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDMSsMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXH1MAP",
@@ -7216,7 +7378,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXH1MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYSPMA5",
@@ -7241,7 +7403,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSPMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDa1RMAT",
@@ -7265,7 +7427,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa1RMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDMQvMAP",
@@ -7290,7 +7452,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDMQvMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYW5MAP",
@@ -7313,7 +7475,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW5MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYW3MAP",
@@ -7336,7 +7498,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW3MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYW6MAP",
@@ -7359,7 +7521,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW6MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYW7MAP",
@@ -7382,7 +7544,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW7MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYW2MAP",
@@ -7405,7 +7567,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW2MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYvPMAX",
@@ -7458,7 +7620,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYvPMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYUkMAP",
@@ -7482,7 +7644,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUkMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYyhMAH",
@@ -7536,7 +7698,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYyhMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDK76MAH",
@@ -7588,7 +7750,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDK76MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY5VMAX",
@@ -7612,7 +7774,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY5VMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZIFMA5",
@@ -7664,7 +7826,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZIFMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbyyMAD",
@@ -7717,7 +7879,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbyyMAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYCmMAP",
@@ -7770,7 +7932,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYCmMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYSFMA5",
@@ -7795,7 +7957,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSFMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYSAMA5",
@@ -7820,7 +7982,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSAMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDap3MAD",
@@ -7874,7 +8036,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDap3MAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXk9MAH",
@@ -7927,7 +8089,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXk9MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDL8JMAX",
@@ -7981,7 +8143,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDL8JMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYvQMAX",
@@ -8034,7 +8196,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYvQMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY1VMAX",
@@ -8058,7 +8220,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY1VMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYnpMAH",
@@ -8082,7 +8244,61 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYnpMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
+  },
+  {
+    "id": "jgrants-a0WJ200000CDbYyMAL",
+    "source": "jgrants",
+    "title": "女性の活躍推進に向けた職場環境改善奨励金　中止届",
+    "organization": "令和８年度　女性の活躍推進に向けた職場環境改善奨励金",
+    "catch_phrase": "女性が活躍できる職場づくりを全力でサポート",
+    "summary": null,
+    "amount_max": 1800000,
+    "amount_text": "最大1,800,000円",
+    "subsidy_rate": "※【取組１】A・B・C・D の取組：各 30 万円（加算要件 E の取組：10 万円、F の取組：1 人あたり 10 万円（最大 5 人まで））",
+    "deadline": "2027-02-28",
+    "start_date": "2026-07-14",
+    "target_industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "target_area": "東京都",
+    "category": null,
+    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbYyMAL",
+    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbYyMAL",
+    "status": "open",
+    "first_seen": "2026-07-15",
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXEmMAP",
@@ -8136,7 +8352,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXEmMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXMiMAP",
@@ -8190,7 +8406,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXMiMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY6GMAX",
@@ -8242,7 +8458,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6GMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDa42MAD",
@@ -8288,7 +8504,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa42MAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbyzMAD",
@@ -8341,7 +8557,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbyzMAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY1kMAH",
@@ -8369,7 +8585,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY1kMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDd5XMAT",
@@ -8393,7 +8609,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd5XMAT",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDd9xMAD",
@@ -8417,7 +8633,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd9xMAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDdA6MAL",
@@ -8441,7 +8657,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdA6MAL",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDdABMA1",
@@ -8465,7 +8681,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdABMA1",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDd9wMAD",
@@ -8489,7 +8705,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd9wMAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDX4vMAH",
@@ -8543,7 +8759,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDX4vMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYffMAH",
@@ -8592,7 +8808,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYffMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY7yMAH",
@@ -8617,7 +8833,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY7yMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY7tMAH",
@@ -8642,7 +8858,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY7tMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY88MAH",
@@ -8667,7 +8883,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY88MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYSUMA5",
@@ -8690,7 +8906,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSUMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYsSMAX",
@@ -8738,7 +8954,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYsSMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXqMMAX",
@@ -8788,7 +9004,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXqMMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY89MAH",
@@ -8813,7 +9029,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY89MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYfwMAH",
@@ -8867,7 +9083,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYfwMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY91MAH",
@@ -8892,7 +9108,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY91MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY9BMAX",
@@ -8917,7 +9133,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY9BMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY1GMAX",
@@ -8945,7 +9161,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY1GMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXORMA5",
@@ -8968,7 +9184,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXORMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY1fMAH",
@@ -9021,7 +9237,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY1fMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY96MAH",
@@ -9046,7 +9262,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY96MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDacWMAT",
@@ -9113,7 +9329,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYuIMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYu3MAH",
@@ -9138,7 +9354,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYu3MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYSKMA5",
@@ -9161,7 +9377,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSKMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYuSMAX",
@@ -9186,7 +9402,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYuSMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXk8MAH",
@@ -9239,7 +9455,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXk8MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYuhMAH",
@@ -9264,7 +9480,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYuhMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYviMAH",
@@ -9289,7 +9505,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYviMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYucMAH",
@@ -9314,7 +9530,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYucMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYumMAH",
@@ -9339,7 +9555,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYumMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYvnMAH",
@@ -9364,7 +9580,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYvnMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYurMAH",
@@ -9389,7 +9605,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYurMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYUXMA5",
@@ -9424,7 +9640,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUXMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYvRMAX",
@@ -9459,7 +9675,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYvRMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY1pMAH",
@@ -9492,7 +9708,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY1pMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY1uMAH",
@@ -9545,7 +9761,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY1uMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYvXMAX",
@@ -9599,7 +9815,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYvXMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYVzMAP",
@@ -9650,7 +9866,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYVzMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYW0MAP",
@@ -9703,7 +9919,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW0MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYW1MAP",
@@ -9756,7 +9972,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW1MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYW4MAP",
@@ -9779,7 +9995,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW4MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY72MAH",
@@ -9803,7 +10019,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY72MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbz0MAD",
@@ -9835,7 +10051,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbz0MAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDZz6MAH",
@@ -9858,7 +10074,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZz6MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYuXMAX",
@@ -9883,7 +10099,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYuXMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY8DMAX",
@@ -9908,7 +10124,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY8DMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXoBMAX",
@@ -9962,7 +10178,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXoBMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYCnMAP",
@@ -10015,7 +10231,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYCnMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY6cMAH",
@@ -10068,7 +10284,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6cMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXFjMAP",
@@ -10091,7 +10307,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFjMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXENMA5",
@@ -10114,7 +10330,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXENMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYCrMAP",
@@ -10160,7 +10376,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYCrMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY6dMAH",
@@ -10185,7 +10401,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6dMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDOsKMAX",
@@ -10208,7 +10424,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDOsKMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY2OMAX",
@@ -10261,7 +10477,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY2OMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY9gMAH",
@@ -10285,7 +10501,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY9gMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W2x000003QZLqEAO",
@@ -10308,7 +10524,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000003QZLqEAO",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDK7KMAX",
@@ -10361,7 +10577,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDK7KMAX",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYCpMAP",
@@ -10411,7 +10627,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYCpMAP",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY1QMAX",
@@ -10434,7 +10650,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY1QMAX",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYW8MAP",
@@ -10461,7 +10677,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW8MAP",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYW9MAP",
@@ -10484,7 +10700,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW9MAP",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYWAMA5",
@@ -10507,7 +10723,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYWAMA5",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYWBMA5",
@@ -10530,7 +10746,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYWBMA5",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXFfMAP",
@@ -10583,7 +10799,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFfMAP",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXFgMAP",
@@ -10636,7 +10852,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFgMAP",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXFhMAP",
@@ -10660,7 +10876,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFhMAP",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXFiMAP",
@@ -10713,7 +10929,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFiMAP",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY1zMAH",
@@ -10766,7 +10982,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY1zMAH",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYk5MAH",
@@ -10819,7 +11035,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYk5MAH",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W2x000005iqyXEAQ",
@@ -10843,7 +11059,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000005iqyXEAQ",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDaTOMA1",
@@ -10867,7 +11083,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaTOMA1",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDbosMAD",
@@ -10891,7 +11107,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbosMAD",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYimMAH",
@@ -10945,7 +11161,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYimMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY8hMAH",
@@ -10969,7 +11185,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY8hMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ2000000pSPQMA2",
@@ -11023,7 +11239,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ2000000pSPQMA2",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDOrTMAX",
@@ -11076,7 +11292,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDOrTMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W5h00000UaiqSEAR",
@@ -11129,7 +11345,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UaiqSEAR",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ20000088TQ4MAM",
@@ -11183,7 +11399,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ20000088TQ4MAM",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ2000008Av8bMAC",
@@ -11236,7 +11452,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ2000008Av8bMAC",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDY24MAH",
@@ -11262,7 +11478,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY24MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYCsMAP",
@@ -11286,7 +11502,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYCsMAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W5h00000UbQnXEAV",
@@ -11338,7 +11554,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UbQnXEAV",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDUvzMAH",
@@ -11392,7 +11608,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDUvzMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDVxKMAX",
@@ -11446,7 +11662,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVxKMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYk9MAH",
@@ -11500,7 +11716,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYk9MAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYkBMAX",
@@ -11554,7 +11770,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYkBMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDNhQMAX",
@@ -11607,7 +11823,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDNhQMAX",
     "status": "open",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDRafMAH",
@@ -11661,7 +11877,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDRafMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDXK4MAP",
@@ -11685,7 +11901,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXK4MAP",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDJWIMA5",
@@ -11709,7 +11925,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDJWIMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W5h00000UbQnSEAV",
@@ -11762,7 +11978,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UbQnSEAV",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ2000000pejTMAQ",
@@ -11786,7 +12002,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ2000000pejTMAQ",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDNiaMAH",
@@ -11840,7 +12056,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDNiaMAH",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDYkAMAX",
@@ -11894,7 +12110,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYkAMAX",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W5h00000GMgXBEA1",
@@ -11944,7 +12160,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000GMgXBEA1",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W5h00000UbU66EAF",
@@ -11994,7 +12210,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UbU66EAF",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ2000000qhOQMAY",
@@ -12044,7 +12260,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ2000000qhOQMAY",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0WJ200000CDQEJMA5",
@@ -12094,7 +12310,7 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDQEJMA5",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   },
   {
     "id": "jgrants-a0W2x000007CrSAEA0",
@@ -12118,6 +12334,6 @@
     "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007CrSAEA0",
     "status": "open",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-14"
+    "last_updated": "2026-07-15"
   }
 ]
