@@ -138,6 +138,7 @@ def main():
     today = datetime.now(JST).date()
     generated_at = datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
     ga4_id = "G-NKJELNWQKD"
+    adsense_client_id = "ca-pub-9507761841542746"
 
     items = load_items()
     for item in items:
@@ -173,6 +174,7 @@ def main():
         base_path="",
         generated_at=generated_at,
         ga4_id=ga4_id,
+        adsense_client_id=adsense_client_id,
         all_items=all_items,
         available_areas=available_areas,
         available_industries=available_industries,
@@ -187,6 +189,7 @@ def main():
             base_path="",
             generated_at=generated_at,
             ga4_id=ga4_id,
+            adsense_client_id=adsense_client_id,
         )
         (DOCS_DIR / page_name).write_text(page_html, encoding="utf-8")
 
@@ -202,6 +205,7 @@ def main():
             base_path="../",
             generated_at=generated_at,
             ga4_id=ga4_id,
+            adsense_client_id=adsense_client_id,
         )
         (DOCS_DIR / page_name).write_text(page_html, encoding="utf-8")
 
@@ -211,6 +215,7 @@ def main():
             base_path="../",
             generated_at=generated_at,
             ga4_id=ga4_id,
+            adsense_client_id=adsense_client_id,
             item=item,
         )
         (DOCS_DIR / "s" / f"{item['id']}.html").write_text(detail_html, encoding="utf-8")
