@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block title %}補助金申請の基本的な流れ | ガイド | 補助金レーダー{% endblock %}
+{% block description %}補助金を見つけてから受け取るまでの一般的なステップを紹介します。{% endblock %}
+
+{% block content %}
+
+<p class="breadcrumbs">
+  <a href="{{ base_path }}index.html">トップ</a> &gt; <a href="index.html">ガイド</a> &gt; 補助金申請の基本的な流れ
+</p>
+
+<h1 class="detail-title">補助金申請の基本的な流れ</h1>
+<p class="empty-note">公開日: 2026-07-15 / 最終更新日: 2026-07-15</p>
+
+<p>「使えそうな補助金を見つけたけれど、この後どう動けばいいのか分からない」——初めて補助金に取り組む方の多くがここでつまずきます。制度によって細部は異なりますが、大きな流れはおおむね共通しています。ここでは、補助金を見つけてから受け取るまでの一般的なステップを順に紹介します。</p>
+
+<p>まずは全体像です。</p>
+
+<svg width="100%" viewBox="0 0 680 790" role="img" xmlns="http://www.w3.org/2000/svg" aria-labelledby="flow-title flow-desc">
+<title id="flow-title">補助金申請の基本的な流れ(8ステップ)</title>
+<desc id="flow-desc">公募情報の確認から補助金の受け取りまでの8ステップを順に示した流れ図。ステップ5の交付決定前の発注は補助対象外であること、ステップ8の補助金は原則後払いであることを強調している。</desc>
+<defs><marker id="flow-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<g>
+  <rect x="120" y="30" width="300" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="270" y="52" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#0C447C">1. 公募情報の確認</text>
+  <text x="270" y="72" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">公募要領・締切・応募資格</text>
+</g>
+<line x1="270" y1="86" x2="270" y2="116" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#flow-arrow)"/>
+<g>
+  <rect x="120" y="122" width="300" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="270" y="144" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#0C447C">2. 事業計画・書類の準備</text>
+  <text x="270" y="164" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">計画書・決算書・見積書など</text>
+</g>
+<line x1="270" y1="178" x2="270" y2="208" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#flow-arrow)"/>
+<g>
+  <rect x="120" y="214" width="300" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="270" y="236" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#0C447C">3. 申請</text>
+  <text x="270" y="256" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">電子申請はアカウント準備を早めに</text>
+</g>
+<line x1="270" y1="270" x2="270" y2="300" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#flow-arrow)"/>
+<g>
+  <rect x="120" y="306" width="300" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="270" y="328" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#0C447C">4. 審査・採択発表</text>
+  <text x="270" y="348" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">数週間〜数か月かかることも</text>
+</g>
+<line x1="270" y1="362" x2="270" y2="392" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#flow-arrow)"/>
+<g>
+  <rect x="120" y="398" width="300" height="56" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1"/>
+  <text x="270" y="420" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#633806">5. 交付申請・交付決定</text>
+  <text x="270" y="440" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#854F0B">採択はまだゴールではない</text>
+</g>
+<line x1="420" y1="426" x2="460" y2="426" stroke="#888780" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text x="466" y="420" font-size="12" fill="#854F0B">交付決定前の発注・契約は</text>
+<text x="466" y="436" font-size="12" fill="#854F0B">原則、補助対象外</text>
+<line x1="270" y1="454" x2="270" y2="484" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#flow-arrow)"/>
+<g>
+  <rect x="120" y="490" width="300" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="270" y="512" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#0C447C">6. 事業の実施</text>
+  <text x="270" y="532" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">支払い証明の書類を必ず保管</text>
+</g>
+<line x1="270" y1="546" x2="270" y2="576" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#flow-arrow)"/>
+<g>
+  <rect x="120" y="582" width="300" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="270" y="604" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#0C447C">7. 実績報告・確定検査</text>
+  <text x="270" y="624" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">実施内容と経費を報告</text>
+</g>
+<line x1="270" y1="638" x2="270" y2="668" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#flow-arrow)"/>
+<g>
+  <rect x="120" y="674" width="300" height="56" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1"/>
+  <text x="270" y="696" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#633806">8. 補助金の受け取り</text>
+  <text x="270" y="716" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#854F0B">原則後払い(立て替えが必要)</text>
+</g>
+<line x1="420" y1="702" x2="460" y2="702" stroke="#888780" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text x="466" y="696" font-size="12" fill="#854F0B">費用は先に全額自己負担、</text>
+<text x="466" y="712" font-size="12" fill="#854F0B">完了後に補助分が戻る</text>
+</svg>
+
+<p>それでは、各ステップを順に見ていきましょう。</p>
+
+<h2 class="section-title">ステップ1:公募情報の確認</h2>
+<p>補助金には「公募期間」があり、その期間内にしか申請できません。気になる補助金を見つけたら、まず公式ページで公募要領(募集のルールをまとめた文書)を入手し、以下を確認します。</p>
+<ul>
+  <li>応募資格(事業者の規模・業種・地域など)</li>
+  <li>補助対象となる経費・ならない経費</li>
+  <li>補助率と上限額</li>
+  <li>公募期間と締切</li>
+  <li>必要書類</li>
+</ul>
+<p>公募期間が短い制度もあるため、締切から逆算して準備のスケジュールを立てることが重要です。</p>
+
+<h2 class="section-title">ステップ2:事業計画の作成・申請書類の準備</h2>
+<p>補助金申請の中心となるのが事業計画書です。「何のために、何をして、どんな成果を目指すのか」を、公募要領の様式に沿ってまとめます。あわせて、決算書や登記簿謄本(履歴事項全部証明書)、見積書など、制度ごとに指定された添付書類を揃えます。</p>
+<p>書類の準備には想像以上に時間がかかることが多いため、締切間際ではなく早めに着手しましょう。分からない点は、公募元の問い合わせ窓口や、商工会議所・よろず支援拠点などの中小企業支援機関に相談できます。</p>
+
+<h2 class="section-title">ステップ3:申請</h2>
+<p>指定された方法で申請します。近年は、国の補助金を中心に電子申請システム(jGrants など)を使うケースが増えています。電子申請には「GビズID」などのアカウントが事前に必要な場合があり、アカウントの発行に時間がかかることがあるため、申請方法は早い段階で確認しておきましょう。</p>
+
+<h2 class="section-title">ステップ4:審査・採択発表</h2>
+<p>提出された申請は、公募元による審査を経て、採択・不採択が決まります。審査期間は制度によって異なり、数週間から数か月かかることもあります。採択結果は、通知や公募元サイトでの公表によって知らされます。</p>
+
+<h2 class="section-title">ステップ5:交付申請・交付決定</h2>
+<p>ここが初めての方が最も誤解しやすいポイントです。「採択」はまだゴールではありません。採択後に「交付申請」という手続きを行い、「交付決定」を受けて初めて、補助対象となる事業を正式に開始できます。</p>
+<p>多くの制度では、交付決定前に発注・契約・支払いをした経費は補助対象になりません。採択の連絡に安心して先に発注してしまい、その分が対象外になる——という失敗は典型例なので、必ず交付決定を待ってから事業を始めましょう(制度により事前着手が認められる場合もありますが、例外的な扱いです)。</p>
+
+<h2 class="section-title">ステップ6:事業の実施</h2>
+<p>交付決定の内容に沿って事業を実施します。このとき、経費の支払いを証明する書類(見積書・発注書・納品書・請求書・振込記録など)を漏れなく保管しておくことが極めて重要です。後の実績報告で提出を求められます。</p>
+
+<h2 class="section-title">ステップ7:実績報告・確定検査</h2>
+<p>事業が完了したら、期限内に実績報告書を提出します。実施した内容と支出した経費を報告し、公募元の確認(確定検査)を受けて、補助金額が確定します。</p>
+
+<h2 class="section-title">ステップ8:補助金の受け取り</h2>
+<p>補助金額の確定後、請求手続きを経て補助金が振り込まれます。ここで押さえておきたいのが、補助金は原則「後払い(精算払い)」だということです。事業にかかる費用はいったん全額自己資金(または融資)で立て替え、事業完了後に補助分が戻ってくる、という流れが基本です。資金繰りの計画は、この前提で立てる必要があります。</p>
+<p>また、制度によっては事業完了後も数年間、状況報告や帳簿類の保存義務が続く場合があります。受け取って終わり、ではない点も覚えておきましょう。</p>
+
+<h2 class="section-title">まとめ</h2>
+<p>補助金は「見つける → 申請する → 採択される → 交付決定を受ける → 実施する → 報告する → 受け取る」という長い道のりです。特に「交付決定前の発注はNG」「原則後払い」の2点は、知らないと実害につながりやすい重要ポイントです。全体の流れを頭に入れたうえで、締切から逆算して余裕を持って準備を進めましょう。</p>
+
+<p>※本記事は一般的な情報の整理であり、個別の補助金制度の手続き・要件はそれぞれ異なります。申請にあたっては、必ず各制度の公式の公募要領をご確認ください。</p>
+
+<p><a href="index.html">&laquo; ガイド一覧に戻る</a></p>
+<p><a href="{{ base_path }}index.html">補助金を探す &rarr;</a></p>
+
+{% endblock %}

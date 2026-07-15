@@ -190,6 +190,21 @@ def main():
         )
         (DOCS_DIR / page_name).write_text(page_html, encoding="utf-8")
 
+    (DOCS_DIR / "guide").mkdir(parents=True, exist_ok=True)
+    for page_name in (
+        "guide/index.html",
+        "guide/rejection-reasons.html",
+        "guide/application-flow.html",
+        "guide/cautions.html",
+    ):
+        page_tmpl = env.get_template(page_name)
+        page_html = page_tmpl.render(
+            base_path="../",
+            generated_at=generated_at,
+            ga4_id=ga4_id,
+        )
+        (DOCS_DIR / page_name).write_text(page_html, encoding="utf-8")
+
     detail_tmpl = env.get_template("detail.html")
     for item in items:
         detail_html = detail_tmpl.render(
