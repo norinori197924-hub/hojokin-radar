@@ -28,12 +28,29 @@
     <tr><th>受付開始</th><td>{{ item.start_date or "不明" }}</td></tr>
     <tr><th>対象業種</th><td>{{ item.target_industries|join("、") if item.target_industries else "不明" }}</td></tr>
     <tr><th>対象地域</th><td>{{ item.target_area or "不明" }}</td></tr>
+    {% if item.target_number_of_employees %}
+      <tr><th>対象従業員数</th><td>{{ item.target_number_of_employees }}</td></tr>
+    {% endif %}
+    {% if item.request_reception_presence %}
+      <tr><th>電子申請受付</th><td>{{ item.request_reception_presence }}</td></tr>
+    {% endif %}
+    {% if item.is_enable_multiple_request is not none %}
+      <tr><th>複数回申請</th><td>{{ "可" if item.is_enable_multiple_request else "不可" }}</td></tr>
+    {% endif %}
+    {% if item.project_end_deadline %}
+      <tr><th>事業実施期限</th><td>{{ item.project_end_deadline }}</td></tr>
+    {% endif %}
   </table>
 
   {% if item.summary %}
     <p>{{ item.summary }}</p>
   {% elif item.catch_phrase %}
     <p>{{ item.catch_phrase }}</p>
+  {% endif %}
+
+  {% if detail_body_html %}
+    <h2 class="detail-body-heading">事業概要</h2>
+    <div class="detail-body">{{ detail_body_html | safe }}</div>
   {% endif %}
 </div>
 

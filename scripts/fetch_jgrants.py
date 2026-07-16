@@ -121,6 +121,11 @@ def to_schema(detail):
         "official_url": official_url,
         "detail_url": official_url,
         "status": "open",
+        "detail_html": detail.get("detail") or None,
+        "target_number_of_employees": detail.get("target_number_of_employees") or None,
+        "request_reception_presence": detail.get("request_reception_presence") or None,
+        "is_enable_multiple_request": detail.get("is_enable_multiple_request"),
+        "project_end_deadline": _to_jst_date(detail.get("project_end_deadline")),
     }
 
 

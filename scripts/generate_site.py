@@ -6,6 +6,7 @@ import shutil
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+import nh3
 from jinja2 import Environment, FileSystemLoader
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -15,6 +16,40 @@ STATIC_DIR = ROOT / "static"
 DOCS_DIR = ROOT / "docs"
 JST = timezone(timedelta(hours=9))
 NEW_ITEM_WINDOW_DAYS = 7
+
+# v2.2 詳細ページ拡充: jGrants APIのdetailフィールド(リッチテキストHTML)を
+# 表示する際のホワイトリスト。属性は一切許可せず、script/styleは中身ごと除去する。
+DETAIL_ALLOWED_TAGS = {"p", "br", "strong", "em", "ul", "ol", "li"}
+DETAIL_DROP_CONTENT_TAGS = {"script", "style"}
+
+# 旧データ(このバージョン以前にfetch_jgrants.pyで取得され、募集終了により
+# 再取得対象から外れた項目)にはこれらのキー自体が存在しないため、Jinja2の
+# Undefinedとの曖昧な比較を避けるべく明示的にNoneへ正規化する。
+NEW_DETAIL_FIELDS = (
+    "detail_html",
+    "target_number_of_employees",
+    "request_reception_presence",
+    "is_enable_multiple_request",
+    "project_end_deadline",
+)
+
+
+def sanitize_detail_html(raw_html):
+    if not raw_html:
+        return None
+    cleaned = nh3.clean(
+        raw_html,
+        tags=DETAIL_ALLOWED_TAGS,
+        attributes={},
+        clean_content_tags=DETAIL_DROP_CONTENT_TAGS,
+    ).strip()
+    return cleaned or None
+
+
+def normalize_new_fields(items):
+    for item in items:
+        for field in NEW_DETAIL_FIELDS:
+            item.setdefault(field, None)
 
 # 表示順を安定させるための行政区画順（北海道→沖縄）。
 # 実データに出現する都道府県だけをこの順で抽出する（存在しない値は追加しない）。
@@ -141,6 +176,7 @@ def main():
     adsense_client_id = "ca-pub-9507761841542746"
 
     items = load_items()
+    normalize_new_fields(items)
     for item in items:
         item["days_left"] = compute_days_left(item.get("deadline"), today)
 
@@ -211,14 +247,16 @@ def main():
 
     detail_tmpl = env.get_template("detail.html")
     for item in items:
-        detail_html = detail_tmpl.render(
+        detail_body_html = sanitize_detail_html(item.get("detail_html"))
+        detail_page_html = detail_tmpl.render(
             base_path="../",
             generated_at=generated_at,
             ga4_id=ga4_id,
             adsense_client_id=adsense_client_id,
             item=item,
+            detail_body_html=detail_body_html,
         )
-        (DOCS_DIR / "s" / f"{item['id']}.html").write_text(detail_html, encoding="utf-8")
+        (DOCS_DIR / "s" / f"{item['id']}.html").write_text(detail_page_html, encoding="utf-8")
 
     print(f"Generated index.html and {len(items)} detail pages in {DOCS_DIR}")
     print(f"  shown on index: {len(all_items)}, new (last {NEW_ITEM_WINDOW_DAYS} days): {sum(1 for i in all_items if i['is_new'])}")
