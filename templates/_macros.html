@@ -1,12 +1,12 @@
 {% macro status_badge(item) %}
-{%- if item.status == 'closing_soon' -%}
+{%- if item.status != 'closed' and item.days_left == 0 -%}
+  <span class="badge badge-closing">本日締切</span>
+{%- elif item.status == 'closing_soon' -%}
   <span class="badge badge-closing">残り{{ item.days_left }}日</span>
 {%- elif item.status == 'closed' -%}
   <span class="badge badge-tag">募集終了</span>
 {%- elif item.days_left is not none and item.days_left >= 1095 -%}
   <span class="badge badge-open">長期募集</span>
-{%- elif item.days_left == 0 -%}
-  <span class="badge badge-closing">本日締切</span>
 {%- elif item.days_left is not none -%}
   <span class="badge badge-open">残り{{ item.days_left }}日</span>
 {%- else -%}
