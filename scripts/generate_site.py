@@ -34,6 +34,33 @@ NEW_DETAIL_FIELDS = (
 )
 
 
+# KANBEI SIGN・CLOUDPHONEはHPDXと同一キーワード群だが、v2.4ではHPDX固定選出のため
+# 判定ロジックには含めない(SPEC.md v2.4「出し分けロジック」参照。将来のローテーション
+# 導入時に候補として追加検討する)。
+# v2.4.1: 実データ検証でURUMAP営業代行が一度も表示されない問題が判明したため、
+# より対象を絞り込んだ条件であるURUMAP営業代行をHPDXより優先する順に変更。
+AFFILIATE_OFFERS = [
+    {
+        "name": "URUMAP営業代行",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B83D0+7GIILU+3SPO+A94YS2",
+        "keywords": ["小規模事業者", "持続化"],
+    },
+    {
+        "name": "ホームページDX(HPDX)",
+        "url": "https://px.a8.net/svt/ejp?a8mat=4B83D0+7H3Y7M+3SPO+89OY6Q",
+        "keywords": ["IT導入", "システム", "デジタル化"],
+    },
+]
+
+
+def select_affiliate(item):
+    text = " ".join(p for p in (item.get("title"), item.get("summary")) if p).lower()
+    for offer in AFFILIATE_OFFERS:
+        if any(kw.lower() in text for kw in offer["keywords"]):
+            return offer
+    return None
+
+
 def sanitize_detail_html(raw_html):
     if not raw_html:
         return None
@@ -248,6 +275,7 @@ def main():
     detail_tmpl = env.get_template("detail.html")
     for item in items:
         detail_body_html = sanitize_detail_html(item.get("detail_html"))
+        affiliate = select_affiliate(item)
         detail_page_html = detail_tmpl.render(
             base_path="../",
             generated_at=generated_at,
@@ -255,6 +283,7 @@ def main():
             adsense_client_id=adsense_client_id,
             item=item,
             detail_body_html=detail_body_html,
+            affiliate=affiliate,
         )
         (DOCS_DIR / "s" / f"{item['id']}.html").write_text(detail_page_html, encoding="utf-8")
 

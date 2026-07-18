@@ -56,6 +56,10 @@
 
 {{ macros.ad_slot('ad-slot-detail-bottom') }}
 
+{% if affiliate %}
+  {{ macros.affiliate_box(affiliate) }}
+{% endif %}
+
 <p><a class="official-link-btn" href="{{ item.official_url }}" target="_blank" rel="noopener noreferrer">公式ページを見る</a></p>
 
 <p class="empty-note">最終更新: {{ item.last_updated }}（初掲載: {{ item.first_seen }}）</p>

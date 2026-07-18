@@ -24,6 +24,13 @@
 <button type="button" class="chip{% if extra %} chip-extra{% endif %}" data-keyword="{{ keyword }}" aria-pressed="false"{% if extra %} hidden{% endif %}>{{ keyword }}</button>
 {% endmacro %}
 
+{% macro affiliate_box(affiliate) %}
+<div class="affiliate-box">
+  <span class="affiliate-label">[PR] この補助金と相性の良いサービス</span>
+  <a class="affiliate-link" href="{{ affiliate.url }}" target="_blank" rel="noopener noreferrer nofollow sponsored">{{ affiliate.name }}</a>
+</div>
+{% endmacro %}
+
 {% macro subsidy_card(item, base_path, filterable=false) %}
 <a class="card" href="{{ base_path }}s/{{ item.id }}.html"
   aria-label="{{ item.title }}（締切: {{ item.deadline or '随時' }}、{{ item.target_area }}）"
