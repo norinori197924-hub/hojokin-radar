@@ -3,6 +3,10 @@
   <span class="badge badge-closing">残り{{ item.days_left }}日</span>
 {%- elif item.status == 'closed' -%}
   <span class="badge badge-tag">募集終了</span>
+{%- elif item.days_left is not none and item.days_left >= 1095 -%}
+  <span class="badge badge-open">長期募集</span>
+{%- elif item.days_left == 0 -%}
+  <span class="badge badge-closing">本日締切</span>
 {%- elif item.days_left is not none -%}
   <span class="badge badge-open">残り{{ item.days_left }}日</span>
 {%- else -%}
@@ -33,7 +37,7 @@
 
 {% macro subsidy_card(item, base_path, filterable=false) %}
 <a class="card" href="{{ base_path }}s/{{ item.id }}.html"
-  aria-label="{{ item.title }}（締切: {{ item.deadline or '随時' }}、{{ item.target_area }}）"
+  aria-label="{{ item.title }}（締切: {{ item.deadline or '随時' }}、{{ item.target_area_display }}）"
   {%- if filterable %}
   data-filter-card
   data-area="{{ item.target_area or '' }}"
@@ -50,18 +54,12 @@
     {{ status_badge(item) }}
     <span class="card-amount">{{ item.amount_text or "不明" }}</span>
     {% if item.category %}<span class="badge badge-tag">{{ item.category }}</span>{% endif %}
-    <span>{{ item.target_area }}</span>
+    <span>{{ item.target_area_display }}</span>
     {% if item.deadline %}<span>締切: {{ item.deadline }}</span>{% endif %}
   </div>
-  <p class="card-summary">
-    {%- if item.summary -%}
-      {{ item.summary }}
-    {%- elif item.catch_phrase -%}
-      {{ item.catch_phrase }}
-    {%- else -%}
-      詳細ページでご確認ください。
-    {%- endif -%}
-  </p>
+  {% if item.summary_display %}
+  <p class="card-summary">{{ item.summary_display }}</p>
+  {% endif %}
   <span class="card-detail-link" aria-hidden="true">詳細を見る &rarr;</span>
 </a>
 {% endmacro %}

@@ -106,6 +106,28 @@ def collect_available_areas(items):
     return [p for p in PREFECTURE_ORDER if p in seen]
 
 
+# v2.3 表示品質改善: target_areaが47都道府県すべてを含む場合は「全国」に畳んで表示する。
+# フィルター用のdata-area属性（filter.js参照）は元の文字列のまま変えない。
+def collapse_area_display(target_area):
+    if not target_area:
+        return target_area
+    tokens = {p.strip() for p in target_area.split("/") if p.strip()}
+    if set(PREFECTURE_ORDER) <= tokens:
+        return "全国"
+    return target_area
+
+
+# v2.3 表示品質改善: summary/catch_phraseが両方空、またはtitleの単純な繰り返しに
+# 過ぎない場合はNoneを返し、テンプレート側で表示自体を省略する
+# （定型プレースホルダー文言の重複表示によるAdSense審査上の低品質コンテンツ判定を避ける）。
+def display_summary(item):
+    title = (item.get("title") or "").strip()
+    text = (item.get("summary") or "").strip() or (item.get("catch_phrase") or "").strip()
+    if not text or text == title:
+        return None
+    return text
+
+
 # 日本標準産業分類（大分類）の公式順。jGrants industryフィールドの分割元と一致する。
 # 業種名の五十音順は読み仮名の恣意的な付与が必要になるため、代わりに一次情報である
 # 産業分類の公式順を採用する。
@@ -206,6 +228,8 @@ def main():
     normalize_new_fields(items)
     for item in items:
         item["days_left"] = compute_days_left(item.get("deadline"), today)
+        item["target_area_display"] = collapse_area_display(item.get("target_area"))
+        item["summary_display"] = display_summary(item)
 
     visible_items = [i for i in items if i.get("status") != "closed"]
     all_items = sorted(

@@ -36,6 +36,17 @@ SEARCH_KEYWORDS = [
 # 1.1秒間隔（約54リクエスト/分）で安全マージンを確保する。
 REQUEST_INTERVAL_SEC = 1.1
 
+# v2.3 表示品質改善: 撤回届・中止届・変更届・練習用ダミー・状況報告など、
+# 補助金そのものではない手続き用レコードをタイトルで除外する（静的リスト、
+# 継続的なメンテナンス自動化は対象外）。
+EXCLUDE_TITLE_KEYWORDS = [
+    "撤回届",
+    "中止届",
+    "変更届",
+    "申請練習用補助金",
+    "状況報告等について",
+]
+
 
 def _to_jst_date(iso_str):
     if not iso_str:
@@ -147,11 +158,19 @@ def main():
 
     fetched_count = 0
     error_count = 0
+    excluded_count = 0
     for subsidy_id in candidates:
         try:
             detail = fetch_detail(subsidy_id)
             if detail is None:
                 continue
+
+            title = detail.get("title") or ""
+            if any(kw in title for kw in EXCLUDE_TITLE_KEYWORDS):
+                existing.pop(f"jgrants-{subsidy_id}", None)
+                excluded_count += 1
+                continue
+
             record = to_schema(detail)
             if record is None:
                 continue
@@ -170,7 +189,7 @@ def main():
             error_count += 1
         time.sleep(REQUEST_INTERVAL_SEC)
 
-    print(f"Upserted {fetched_count} jgrants records ({error_count} errors)", file=sys.stderr)
+    print(f"Upserted {fetched_count} jgrants records ({error_count} errors, {excluded_count} excluded by title filter)", file=sys.stderr)
 
     all_items = list(existing.values())
     all_items.sort(key=lambda x: (x.get("deadline") is None, x.get("deadline") or ""))

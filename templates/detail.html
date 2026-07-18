@@ -27,7 +27,7 @@
     <tr><th>締切</th><td>{{ item.deadline or "不明（随時受付等）" }}</td></tr>
     <tr><th>受付開始</th><td>{{ item.start_date or "不明" }}</td></tr>
     <tr><th>対象業種</th><td>{{ item.target_industries|join("、") if item.target_industries else "不明" }}</td></tr>
-    <tr><th>対象地域</th><td>{{ item.target_area or "不明" }}</td></tr>
+    <tr><th>対象地域</th><td>{{ item.target_area_display or "不明" }}</td></tr>
     {% if item.target_number_of_employees %}
       <tr><th>対象従業員数</th><td>{{ item.target_number_of_employees }}</td></tr>
     {% endif %}
@@ -42,10 +42,8 @@
     {% endif %}
   </table>
 
-  {% if item.summary %}
-    <p>{{ item.summary }}</p>
-  {% elif item.catch_phrase %}
-    <p>{{ item.catch_phrase }}</p>
+  {% if item.summary_display %}
+    <p>{{ item.summary_display }}</p>
   {% endif %}
 
   {% if detail_body_html %}
