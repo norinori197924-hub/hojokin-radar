@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}補助金の統計 | 補助金レーダー{% endblock %}
+{% block description %}掲載中の補助金・助成金データを業種・締切・補助率・地域別に集計した統計ページです。{% endblock %}
+
+{% block content %}
+
+<p class="breadcrumbs">
+  <a href="{{ base_path }}index.html">トップ</a> &gt; 補助金の動向
+</p>
+
+<h1 class="detail-title">補助金の動向</h1>
+<p>掲載中の補助金・助成金データ({{ stats.total_count }}件)を機械的に集計したものです。個別の解説や考察は含みません。</p>
+
+{% if stats.insights %}
+  <div class="stats-insights">
+    {% for line in stats.insights %}
+      <p>{{ line }}</p>
+    {% endfor %}
+  </div>
+{% endif %}
+
+<h2 class="section-title">概況</h2>
+<table class="detail-facts">
+  <tr><th>掲載件数</th><td>{{ stats.total_count }}件</td></tr>
+  <tr><th>締切7日以内</th><td>{{ stats.within_7 }}件</td></tr>
+  <tr><th>締切30日以内</th><td>{{ stats.within_30 }}件</td></tr>
+  {% if stats.amount %}
+    <tr><th>補助上限額(中央値)</th><td>{{ stats.amount.median_text }}</td></tr>
+    <tr><th>補助上限額(平均値)</th><td>{{ stats.amount.mean_text }}(高額な案件に強く影響されるため参考値)</td></tr>
+  {% endif %}
+</table>
+{% if stats.amount %}
+  <p class="empty-note">補助上限額は{{ stats.amount.sample_count }}件のデータに基づく({{ stats.amount.null_count }}件は上限額情報なし)。</p>
+{% endif %}
+
+<h2 class="section-title">業種別分布</h2>
+<p class="empty-note">対象業種を{{ stats.industry_max_count }}業種以内に絞った案件({{ stats.industry_targeted_count }}件)のみを集計対象としています。</p>
+<div class="stats-bars">
+  {% for row in stats.industry_stats %}
+    <div class="stats-bar-row">
+      <span class="stats-bar-label">{{ row.label }}</span>
+      <span class="stats-bar-track"><span class="stats-bar-fill" style="width: {{ row.bar_pct }}%;"></span></span>
+      <span class="stats-bar-value">{{ row.count }}件({{ row.pct }}%)</span>
+    </div>
+  {% endfor %}
+</div>
+<p class="empty-note">{{ stats.industry_broad_count }}件は対象業種が広く(6業種以上)、実質的に全業種対象の制度のため集計対象外としています。</p>
+
+<h2 class="section-title">補助率の内訳</h2>
+<div class="stats-bars">
+  {% for row in stats.rate_stats %}
+    <div class="stats-bar-row">
+      <span class="stats-bar-label">{{ row.label }}</span>
+      <span class="stats-bar-track"><span class="stats-bar-fill" style="width: {{ row.bar_pct }}%;"></span></span>
+      <span class="stats-bar-value">{{ row.count }}件({{ row.pct }}%)</span>
+    </div>
+  {% endfor %}
+</div>
+
+<h2 class="section-title">締切の月別傾向(今後3か月)</h2>
+<div class="stats-bars">
+  {% for row in stats.month_stats %}
+    <div class="stats-bar-row">
+      <span class="stats-bar-label">{{ row.label }}</span>
+      <span class="stats-bar-track"><span class="stats-bar-fill" style="width: {{ row.bar_pct }}%;"></span></span>
+      <span class="stats-bar-value">{{ row.count }}件</span>
+    </div>
+  {% endfor %}
+</div>
+
+<h2 class="section-title">地域の傾向</h2>
+<div class="stats-bars">
+  {% for row in stats.area_stats %}
+    <div class="stats-bar-row">
+      <span class="stats-bar-label">{{ row.label }}</span>
+      <span class="stats-bar-track"><span class="stats-bar-fill" style="width: {{ row.bar_pct }}%;"></span></span>
+      <span class="stats-bar-value">{{ row.count }}件({{ row.pct }}%)</span>
+    </div>
+  {% endfor %}
+</div>
+
+<p class="empty-note">本ページはjGrants由来の一次データの機械的な集計のみで構成しています。個別の補助金制度の詳細・最新情報は必ず公式ページをご確認ください。最終更新: {{ generated_at }}</p>
+
+<p><a href="{{ base_path }}index.html">補助金を探す &rarr;</a></p>
+
+{% endblock %}

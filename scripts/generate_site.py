@@ -3,6 +3,7 @@
 """
 import json
 import shutil
+from collections import Counter
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -206,6 +207,231 @@ def build_purpose_keywords(items):
     return included + excluded
 
 
+# --- v2.5 補助金統計ページ: 補助率テキストのカテゴリ正規化 -----------------
+# subsidy_rateは自由記述で表記ゆれが大きい(実データで130種類/290件)。厳密な
+# フラクション解析はせず、部分一致による正規化にとどめる(推測でデータを
+# 補完しない原則のため)。「10/10」「100%」は概念上「定額」(全額補助)と同一
+# のため統合する。2カテゴリ以上に一致する場合(例:「1/2 もしくは 2/3」)は
+# 単一カテゴリに押し込めず別枠集計する。
+RATE_CATEGORIES = [
+    ("定額", ("定額", "10/10", "10分の10", "100%")),
+    ("4分の3", ("3/4", "4分の3")),
+    ("3分の2", ("2/3", "3分の2")),
+    ("2分の1", ("1/2", "2分の1")),
+    ("3分の1", ("1/3", "3分の1")),
+]
+RATE_CATEGORY_MULTI = "複数の補助率(要公募要領確認)"
+RATE_CATEGORY_OTHER = "その他・要確認"
+RATE_CATEGORY_ORDER = [name for name, _ in RATE_CATEGORIES] + [RATE_CATEGORY_MULTI, RATE_CATEGORY_OTHER]
+_FULLWIDTH_TO_HALFWIDTH = str.maketrans("０１２３４５６７８９／", "0123456789/")
+
+
+def categorize_subsidy_rate(raw_rate):
+    text = (raw_rate or "").translate(_FULLWIDTH_TO_HALFWIDTH)
+    matched = [name for name, patterns in RATE_CATEGORIES if any(p in text for p in patterns)]
+    if not matched:
+        return RATE_CATEGORY_OTHER
+    if len(matched) >= 2:
+        return RATE_CATEGORY_MULTI
+    return matched[0]
+
+
+def format_yen(amount):
+    return f"{round(amount):,}円"
+
+
+def build_bar_list(pairs, total):
+    """(ラベル, 件数)のリストから、比率(全体に対する%)と棒グラフ幅(区分内最大値
+    に対する%)を付与したリストを作る。最大値に対する相対幅で描画し、実数と
+    全体比率はテキストで別途明示する(色・幅だけに情報を依存させない)。"""
+    max_count = max((c for _, c in pairs), default=0)
+    result = []
+    for label, count in pairs:
+        pct = round(count / total * 100, 1) if total else 0.0
+        bar_pct = round(count / max_count * 100, 1) if max_count else 0.0
+        result.append({"label": label, "count": count, "pct": pct, "bar_pct": bar_pct})
+    return result
+
+
+def compute_amount_stats(items):
+    amounts = sorted(i["amount_max"] for i in items if i.get("amount_max") is not None)
+    n = len(amounts)
+    if n == 0:
+        return None
+    median = amounts[n // 2] if n % 2 == 1 else (amounts[n // 2 - 1] + amounts[n // 2]) / 2
+    mean = sum(amounts) / n
+    return {
+        "median_text": format_yen(median),
+        "mean_text": format_yen(mean),
+        "sample_count": n,
+        "null_count": len(items) - n,
+    }
+
+
+# 業種を「絞った」案件とみなす上限業種数。insight_industry_concentrationと
+# 業種別分布の集計で共通の基準として使う(target_industriesに31〜32業種=
+# ほぼ全産業分類を列挙する「実質全業種対象」の制度が多数存在し、これを
+# そのまま集計に含めると全業種が軒並み高比率になり分布として意味を持たない)。
+INDUSTRY_TARGETED_MAX = 5
+
+
+def get_targeted_industries(item):
+    """業種を絞った案件(1〜INDUSTRY_TARGETED_MAX業種)ならその業種リストを、
+    そうでなければ(0件、またはINDUSTRY_TARGETED_MAXを超える実質全業種対象)
+    Noneを返す。"""
+    industries = [ind for ind in (item.get("target_industries") or []) if ind and ind != "不明"]
+    if 1 <= len(industries) <= INDUSTRY_TARGETED_MAX:
+        return industries
+    return None
+
+
+def compute_industry_distribution(items):
+    """業種を絞った案件のみを対象に集計する。戻り値は
+    (件数降順の(業種名, 件数)リスト, 集計対象件数, 実質全業種対象として
+    除外した件数)のタプル。"""
+    counter = Counter()
+    targeted_count = 0
+    broad_count = 0
+    for item in items:
+        industries = get_targeted_industries(item)
+        if industries is not None:
+            targeted_count += 1
+            counter.update(industries)
+        elif item.get("target_industries"):
+            broad_count += 1
+    return counter.most_common(), targeted_count, broad_count
+
+
+def compute_rate_distribution(items):
+    counter = Counter(categorize_subsidy_rate(item.get("subsidy_rate")) for item in items)
+    return [(name, counter[name]) for name in RATE_CATEGORY_ORDER if counter.get(name)]
+
+
+def compute_month_distribution(items, today):
+    """当月を含む今後3か月分。締切がゼロ件の月も表示するため、実データに
+    存在しない月も(0件として)必ず3件分そろえて返す。"""
+    counter = Counter()
+    for item in items:
+        deadline = item.get("deadline")
+        if not deadline:
+            continue
+        dt = datetime.strptime(deadline, "%Y-%m-%d").date()
+        delta_months = (dt.year - today.year) * 12 + (dt.month - today.month)
+        if 0 <= delta_months <= 2:
+            counter[dt.strftime("%Y-%m")] += 1
+
+    result = []
+    year, month = today.year, today.month
+    for i in range(3):
+        total_month = month + i
+        y = year + (total_month - 1) // 12
+        m = (total_month - 1) % 12 + 1
+        key = f"{y:04d}-{m:02d}"
+        result.append((f"{y}年{m}月", counter.get(key, 0)))
+    return result
+
+
+def compute_area_distribution(items):
+    national = sum(1 for i in items if i.get("target_area_display") == "全国")
+    specific = sum(
+        1 for i in items if i.get("target_area_display") and i.get("target_area_display") != "全国"
+    )
+    return national, specific
+
+
+# --- v2.5 インサイト文言: あらかじめ定義した条件分岐の定型文のみを使う。
+# AIによる自由生成は行わない。該当しない場合はNoneを返し非表示にする。
+
+def insight_industry_concentration(items, today):
+    """当月締切分のうち、業種を広く網羅する制度(全業種対象に近いもの)を
+    ノイズとして除外したうえで、最頻業種が一定割合を占める場合のみ言及する。
+    (target_industriesが31〜32件など「実質全業種対象」の制度が多数存在し、
+    単純集計では見かけ上の集中がすべての業種で発生してしまうため)"""
+    cur_ym = today.strftime("%Y-%m")
+    counter = Counter()
+    total_targeted = 0
+    for item in items:
+        deadline = item.get("deadline")
+        if not deadline or not deadline.startswith(cur_ym):
+            continue
+        industries = get_targeted_industries(item)
+        if industries is not None:
+            total_targeted += 1
+            counter.update(industries)
+    if total_targeted < 10 or not counter:
+        return None
+    industry, count = counter.most_common(1)[0]
+    if count / total_targeted >= 0.3:
+        return f"今月は{industry}向けの締切が集中しています(業種を絞った案件{total_targeted}件中{count}件)。"
+    return None
+
+
+def insight_deadline_soon(items):
+    count = sum(1 for i in items if i.get("days_left") is not None and 0 <= i["days_left"] <= 7)
+    if count >= 5:
+        return f"まもなく締切を迎える補助金が{count}件あります。お早めのご確認をおすすめします。"
+    return None
+
+
+def insight_rate_dominant(rate_pairs, total):
+    candidates = [(n, c) for n, c in rate_pairs if n not in (RATE_CATEGORY_MULTI, RATE_CATEGORY_OTHER)]
+    if not candidates or not total:
+        return None
+    name, count = max(candidates, key=lambda pair: pair[1])
+    share = count / total
+    if share >= 0.4:
+        return f"補助率は「{name}」が最も多く、全体の{share * 100:.0f}%を占めています。"
+    return None
+
+
+def insight_area_bias(national, specific):
+    total = national + specific
+    if not total:
+        return None
+    if national / total >= 0.7:
+        return f"全国対象の補助金が全体の{national / total * 100:.0f}%を占めています。"
+    if specific / total >= 0.7:
+        return f"特定地域限定の補助金が全体の{specific / total * 100:.0f}%を占めています。"
+    return None
+
+
+def build_insights(items, today, rate_pairs, total, national, specific):
+    candidates = [
+        insight_industry_concentration(items, today),
+        insight_deadline_soon(items),
+        insight_rate_dominant(rate_pairs, total),
+        insight_area_bias(national, specific),
+    ]
+    return [c for c in candidates if c][:2]
+
+
+def compute_stats(items, today):
+    total = len(items)
+    within_7 = sum(1 for i in items if i.get("days_left") is not None and 0 <= i["days_left"] <= 7)
+    within_30 = sum(1 for i in items if i.get("days_left") is not None and 0 <= i["days_left"] <= 30)
+
+    rate_pairs = compute_rate_distribution(items)
+    month_pairs = compute_month_distribution(items, today)
+    month_total = sum(c for _, c in month_pairs)
+    national, specific = compute_area_distribution(items)
+    industry_pairs, industry_targeted_count, industry_broad_count = compute_industry_distribution(items)
+
+    return {
+        "total_count": total,
+        "within_7": within_7,
+        "within_30": within_30,
+        "amount": compute_amount_stats(items),
+        "industry_stats": build_bar_list(industry_pairs, industry_targeted_count),
+        "industry_targeted_count": industry_targeted_count,
+        "industry_broad_count": industry_broad_count,
+        "industry_max_count": INDUSTRY_TARGETED_MAX,
+        "rate_stats": build_bar_list(rate_pairs, total),
+        "month_stats": build_bar_list(month_pairs, month_total),
+        "area_stats": build_bar_list([("全国", national), ("特定地域限定", specific)], national + specific),
+        "insights": build_insights(items, today, rate_pairs, total, national, specific),
+    }
+
+
 def load_items():
     with open(DATA_PATH, encoding="utf-8") as f:
         return json.load(f)
@@ -269,6 +495,17 @@ def main():
         purpose_keywords_primary_count=PURPOSE_KEYWORDS_PRIMARY_COUNT,
     )
     (DOCS_DIR / "index.html").write_text(index_html, encoding="utf-8")
+
+    stats = compute_stats(all_items, today)
+    stats_tmpl = env.get_template("stats.html")
+    stats_html = stats_tmpl.render(
+        base_path="",
+        generated_at=generated_at,
+        ga4_id=ga4_id,
+        adsense_client_id=adsense_client_id,
+        stats=stats,
+    )
+    (DOCS_DIR / "stats.html").write_text(stats_html, encoding="utf-8")
 
     for page_name in ("privacy-policy.html", "about.html"):
         page_tmpl = env.get_template(page_name)

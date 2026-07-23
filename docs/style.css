@@ -636,3 +636,76 @@ footer.site-footer p {
   text-decoration: none;
   opacity: 0.85;
 }
+
+/* v2.5 補助金統計ページ */
+.stats-insights {
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 12px 0 20px;
+}
+
+.stats-insights p {
+  margin: 4px 0;
+  font-size: 0.92rem;
+  color: var(--text);
+}
+
+.stats-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px 0 20px;
+}
+
+.stats-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+}
+
+.stats-bar-label {
+  width: 11em;
+  flex-shrink: 0;
+  color: var(--text);
+}
+
+.stats-bar-track {
+  flex: 1;
+  min-width: 40px;
+  height: 10px;
+  background: var(--tag-bg);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.stats-bar-fill {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 5px;
+}
+
+.stats-bar-value {
+  width: 7em;
+  flex-shrink: 0;
+  text-align: right;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 480px) {
+  .stats-bar-row {
+    flex-wrap: wrap;
+  }
+
+  .stats-bar-label {
+    width: 100%;
+  }
+
+  .stats-bar-track {
+    flex: 1 1 auto;
+  }
+}
