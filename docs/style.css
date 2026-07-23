@@ -295,6 +295,21 @@ h2.section-title {
   color: var(--text-muted);
 }
 
+/* v2.5.1 統計ページ導線の追加設置 */
+.stats-entry-link {
+  margin: 0 0 20px;
+  text-align: right;
+  font-size: 13px;
+}
+
+.stats-entry-link a {
+  color: var(--text-muted);
+}
+
+.stats-entry-link a:hover {
+  color: var(--accent);
+}
+
 .hero-search {
   background: linear-gradient(160deg, var(--accent-soft) 0%, var(--surface) 60%);
   border: 1px solid var(--border);
