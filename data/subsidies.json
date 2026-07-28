@@ -25,7 +25,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY2TMAX",
@@ -54,7 +54,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2026-06-21",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDaTDMA1",
@@ -113,7 +113,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDaTFMA1",
@@ -172,7 +172,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDa47MAD",
@@ -2454,35 +2454,6 @@
     "last_updated": "2026-07-27"
   },
   {
-    "id": "jgrants-a0WJ200000CDbonMAD",
-    "source": "jgrants",
-    "title": "「インフラ管理DXにおける地下埋設物データ整備手法活用の人材育成講座のあり方に関する調査」の公募",
-    "organization": "調査等",
-    "catch_phrase": null,
-    "summary": null,
-    "amount_max": null,
-    "amount_text": "不明",
-    "subsidy_rate": null,
-    "deadline": "2026-07-28",
-    "start_date": "2026-07-06",
-    "target_industries": [
-      "学術研究",
-      "専門・技術サービス業"
-    ],
-    "target_area": "全国",
-    "category": null,
-    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbonMAD",
-    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbonMAD",
-    "status": "closing_soon",
-    "detail_html": "<p><span style=\"font-size: 16px;\">国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）は、「インフラ管理DXにおける地下埋設物データ整備手法活用の人材育成講座のあり方に関する調査」の実施者を広く一般に公募いたします。本件について受託を希望する方は、NEDO HPをご確認いただき御応募ください。</span></p><p><a href=\"https://www.nedo.go.jp/koubo/IT2_100399.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">https://www.nedo.go.jp/koubo/IT2_100399.html</a></p>",
-    "target_number_of_employees": "従業員数の制約なし",
-    "request_reception_presence": "有",
-    "is_enable_multiple_request": true,
-    "project_end_deadline": null,
-    "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
-  },
-  {
     "id": "jgrants-a0WJ200000CDc1RMAT",
     "source": "jgrants",
     "title": "【静岡県産業振興財団】令和8年度　研究開発助成（産学官連携型）２次募集",
@@ -2539,7 +2510,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDcfNMAT",
@@ -2598,7 +2569,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDKZFMA5",
@@ -2635,7 +2606,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2026-02-28",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDc0JMAT",
@@ -2664,7 +2635,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbHOMA1",
@@ -2723,7 +2694,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbPkMAL",
@@ -2782,7 +2753,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDVdPMAX",
@@ -2811,7 +2782,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZz1MAH",
@@ -2839,7 +2810,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDckfMAD",
@@ -2898,7 +2869,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDcyEMAT",
@@ -2957,7 +2928,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY36MAH",
@@ -3015,7 +2986,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-10-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYkxMAH",
@@ -3072,7 +3043,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbnoMAD",
@@ -3114,7 +3085,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2029-11-30",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDcO3MAL",
@@ -3171,7 +3142,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDcO8MAL",
@@ -3228,7 +3199,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDcO9MAL",
@@ -3285,7 +3256,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDanIMAT",
@@ -3344,7 +3315,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDamPMAT",
@@ -3403,7 +3374,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXoQMAX",
@@ -3432,7 +3403,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY71MAH",
@@ -3461,7 +3432,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-04-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY70MAH",
@@ -3490,7 +3461,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-04-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbYtMAL",
@@ -3531,7 +3502,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-16",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdQsMAL",
@@ -3588,7 +3559,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-18",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbyeMAD",
@@ -3617,7 +3588,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbPBMA1",
@@ -3645,7 +3616,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDaL8MAL",
@@ -3674,7 +3645,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYv8MAH",
@@ -3703,7 +3674,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdgsMAD",
@@ -3733,7 +3704,36 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-27",
     "first_seen": "2026-07-25",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
+  },
+  {
+    "id": "jgrants-a0WJ200000CDbonMAD",
+    "source": "jgrants",
+    "title": "「インフラ管理DXにおける地下埋設物データ整備手法活用の人材育成講座のあり方に関する調査」の公募",
+    "organization": "調査等",
+    "catch_phrase": null,
+    "summary": null,
+    "amount_max": null,
+    "amount_text": "不明",
+    "subsidy_rate": null,
+    "deadline": "2026-08-07",
+    "start_date": "2026-07-06",
+    "target_industries": [
+      "学術研究",
+      "専門・技術サービス業"
+    ],
+    "target_area": "全国",
+    "category": null,
+    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbonMAD",
+    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbonMAD",
+    "status": "closing_soon",
+    "detail_html": "<p><span style=\"font-size: 16px;\">■更新情報​ </span></p><p><span style=\"font-size: 16px;\">2026年7月28日：【期間延長】提案書類の提出期限を2026年8月7日正午まで延長しました</span></p><p><br></p><p><span style=\"font-size: 16px;\">国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）は、「インフラ管理DXにおける地下埋設物データ整備手法活用の人材育成講座のあり方に関する調査」の実施者を広く一般に公募いたします。本件について受託を希望する方は、NEDO HPをご確認いただき御応募ください。</span></p><p><a href=\"https://www.nedo.go.jp/koubo/IT2_100399.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">https://www.nedo.go.jp/koubo/IT2_100399.html</a></p>",
+    "target_number_of_employees": "従業員数の制約なし",
+    "request_reception_presence": "有",
+    "is_enable_multiple_request": true,
+    "project_end_deadline": null,
+    "first_seen": "2026-07-11",
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDc0OMAT",
@@ -3792,7 +3792,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-28",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbfKMAT",
@@ -3851,7 +3851,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDaLwMAL",
@@ -3879,7 +3879,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDaMVMA1",
@@ -3907,7 +3907,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZipMAH",
@@ -3936,7 +3936,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2026-08-07",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDcQsMAL",
@@ -3995,7 +3995,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-01-16",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYSeMAP",
@@ -4024,7 +4024,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2026-08-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDacHMAT",
@@ -4053,7 +4053,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2026-08-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZBgMAP",
@@ -4111,7 +4111,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2030-11-30",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDd3iMAD",
@@ -4140,7 +4140,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2026-10-31",
     "first_seen": "2026-07-22",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDd4BMAT",
@@ -4169,7 +4169,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2026-10-31",
     "first_seen": "2026-07-23",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDc0sMAD",
@@ -4198,7 +4198,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-15",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdbJMAT",
@@ -4256,7 +4256,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2029-01-25",
     "first_seen": "2026-07-25",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDcFAMA1",
@@ -4287,7 +4287,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-02-28",
     "first_seen": "2026-07-28",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdapMAD",
@@ -4325,7 +4325,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2029-07-31",
     "first_seen": "2026-07-28",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYirMAH",
@@ -4379,7 +4379,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2026-08-19",
     "first_seen": "2026-07-16",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYtoMAH",
@@ -4438,7 +4438,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-14",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdNjMAL",
@@ -4473,7 +4473,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-15",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYh2MAH",
@@ -4527,7 +4527,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2026-08-21",
     "first_seen": "2026-07-16",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDckaMAD",
@@ -4556,7 +4556,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-16",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdRCMA1",
@@ -4615,7 +4615,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-22",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdSBMA1",
@@ -4647,7 +4647,36 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-23",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
+  },
+  {
+    "id": "jgrants-a0WJ200000CDdNyMAL",
+    "source": "jgrants",
+    "title": "「省電力・高速情報処理を実現するフロンティア技術等に関する俯瞰調査」の公募",
+    "organization": "P24012_フロンティア領域の探索・重点支援のためのＧＸイノベーション・エコシステム構築事業推進に係る検討",
+    "catch_phrase": null,
+    "summary": null,
+    "amount_max": null,
+    "amount_text": "不明",
+    "subsidy_rate": null,
+    "deadline": "2026-08-21",
+    "start_date": "2026-07-28",
+    "target_industries": [
+      "学術研究",
+      "専門・技術サービス業"
+    ],
+    "target_area": "全国",
+    "category": null,
+    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNyMAL",
+    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNyMAL",
+    "status": "open",
+    "detail_html": "<p><span style=\"font-size: 16px;\">国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）は、「省電力・高速情報処理を実現するフロンティア技術等に関する俯瞰調査」の実施者を広く一般に公募いたします。本件について受託を希望する方は、NEDO HPをご確認いただき御応募ください。</span></p><p><a href=\"https://www.nedo.go.jp/koubo/NA2_100292.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">https://www.nedo.go.jp/koubo/NA2_100292.html</a></p>",
+    "target_number_of_employees": "従業員数の制約なし",
+    "request_reception_presence": "有",
+    "is_enable_multiple_request": true,
+    "project_end_deadline": null,
+    "first_seen": "2026-07-29",
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDb8QMAT",
@@ -4676,7 +4705,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-14",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdfVMAT",
@@ -4735,7 +4764,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-25",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdQnMAL",
@@ -4764,7 +4793,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-25",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDaMLMA1",
@@ -4822,7 +4851,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-13",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDaMQMA1",
@@ -4880,7 +4909,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-13",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdAaMAL",
@@ -4939,7 +4968,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-16",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdPLMA1",
@@ -4968,7 +4997,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-25",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdP1MAL",
@@ -4997,7 +5026,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-25",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdPGMA1",
@@ -5026,7 +5055,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-25",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdPQMA1",
@@ -5055,7 +5084,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-25",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdPVMA1",
@@ -5084,7 +5113,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-25",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDPbMMAX",
@@ -5139,7 +5168,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2026-08-29",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYEHMA5",
@@ -5196,7 +5225,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDd46MAD",
@@ -5255,7 +5284,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-22",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdjkMAD",
@@ -5286,7 +5315,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-28",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdJhMAL",
@@ -5315,7 +5344,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-18",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY6vMAH",
@@ -5344,7 +5373,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-21",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYUNMA5",
@@ -5402,7 +5431,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdQxMAL",
@@ -5433,7 +5462,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-02-28",
     "first_seen": "2026-07-28",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDWngMAH",
@@ -5462,7 +5491,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXuqMAH",
@@ -5491,7 +5520,125 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-04-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
+  },
+  {
+    "id": "jgrants-a0WJ200000CDYlTMAX",
+    "source": "jgrants",
+    "title": "令和８年度 脱炭素成長型経済構造移行推進対策費補助金（自律型資源循環システム強靱化促進事業）",
+    "organization": "脱炭素成長型経済構造移行推進対策費補助金（自律型資源循環システム強靱化促進事業）",
+    "catch_phrase": "Ｒ８資源循環事業",
+    "summary": null,
+    "amount_max": 20000000000,
+    "amount_text": "最大20,000,000,000円",
+    "subsidy_rate": "中小企業等１/２以内　大企業等１/３以内　詳細は公募要領を参照",
+    "deadline": "2026-09-14",
+    "start_date": "2026-07-28",
+    "target_industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "target_area": "全国",
+    "category": null,
+    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYlTMAX",
+    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYlTMAX",
+    "status": "open",
+    "detail_html": "<p><strong style=\"font-family: sans-serif; color: rgb(0, 111, 173); font-size: 12px;\">■目的・概要</strong></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">（１）</span><strong style=\"font-size: 12px; font-family: sans-serif;\">事業目的</strong></p><p><span style=\"font-family: sans-serif; font-size: 12px;\">GXの実現に向けて、循環経済（サーキュラーエコノミー）への移行のため、経済産業省では、2023年３月に「成長志向型の資源自律経済戦略」を策定し、経済の自律化・強靭化と国際競争力の獲得を通じた持続的かつ着実な成長に繋げる総合的な政策パッケージを提示したところです。同戦略を踏まえ、2023年９月に立ち上げた「サーキュラーパートナーズ（サーキュラーエコノミーに関する産官学のパートナーシップ）」の枠組みを活用し、新たな資源循環市場の創出に向けた、脱炭素と経済成長を両立する取組を早期に実現することを目的に支援を実施します。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">なお、本間接補助事業は「GX実現に向けた基本方針」（令和５年２月１０日閣議決定）３．（２）および、「分野別投資戦略」に基づき実施するものとします。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\"> （２）</span><strong style=\"font-size: 12px; font-family: sans-serif;\">対象事業の範囲</strong></p><p><span style=\"font-family: sans-serif; font-size: 12px;\">本間接補助事業は、資源循環に係る技術開発及び実証に係る建設費、設計費、設備費、工事費等（以下「設備投資等」という。）に対して補助を行います。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif; color: black;\">① </span><span style=\"font-size: 12px; font-family: sans-serif;\">再生材等を原料として活用し、再生材利用製品を製造するための技術開発、実証及び商用化に係る設備投資等を支援する。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif; color: black;\">② </span><span style=\"font-size: 12px; font-family: sans-serif;\">長寿命化や再資源化の容易性の確保等に資する「環境配慮型ものづくり」のための技術開発、実証及び商用化に係る設備投資等を支援する。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif; color: black;\">③</span><span style=\"font-size: 12px; font-family: sans-serif;\">リユース、リファービッシュ等のＣＥコマース促進のための技術開発、実証及び商用化に係る設備投資等を支援する。</span></p><p><br></p><p><strong style=\"font-family: sans-serif; color: rgb(0, 111, 173); font-size: 12px;\">■応募資格</strong></p><p><span style=\"font-family: sans-serif; font-size: 12px;\">以下の項目をすべて満たす事業者を補助対象とします。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">① 日本法人（登記法人）である民間会社※１又は民間会社を主申請者とする共同体若しくは任意団体等であること。（地方公共団体※２が、主申請者になることはできません。）</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">② サーキュラーパートナーズ（サーキュラーエコノミーに関する産官学のパートナーシップ）の会員であること。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">③ 経済産業省が定める補助金等の交付停止事業者に該当していないこと。また、共同申請者、請負先、委託先についても同様に扱うこと。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">④ 事業を円滑に遂行するために必要な費用のうち、自己負担分の調達に関し、十分な経営基盤を有していること。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">⑤ 政府からのEBPM（エビデンスに基づく政策立案）に関する協力要請に応じること。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">* 申請時・事業実施期間中・事業報告提出時等に提供いただいた情報（提供いただいた情報を加工して生じた派生的な情報も含みます）については、</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">（ア）審査、管理、確定、精算に利用します。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">（イ）効果的な政策立案や、政策の効果検証のため、経済産業省、及びその業務委託先、独立行政法人、大学その他の研究機関・施設等機関（政策の効果検証（EBPM）目的のみの利活用や守秘義務等の遵守に係る誓約書を提出した機関・研究者）に提供・利活用される場合があります。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">また、上記を前提として申請・利用・報告等を行うことにより、データ利活用及び効果検証への協力に同意したものとみなします。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">⑥ 委託契約等で民間会社に事業を実施させる場合、民間会社に対して確定検査等を行い確定検査等で確認した資料の写し等を事業完了後５年以上保管する体制が取れていること。</span></p><p><span style=\"font-family: sans-serif; font-size: 12px;\">⑦ 事業を運営・管理できる能力を有しており、事業を実施するための実施体制及び管理体制が整備されていること。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">⑧ GXフューチャー・リーグに入会し、排出量実績を報告すること。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">現時点でGXフューチャー・リーグに入会していない場合、本事業への申請までにGXフューチャー・リーグ会員の入会申込みを行うと共に、入会申込みから4ヶ月以内に、2030年度の排出量目標とコミットメントの報告を行うこと。</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">中小企業基本法に規定する中小企業に該当する企業については、その他の温室効果ガスの排出削減 のための取組の提出をもって、これらに代えることができる。</span></p><p><span style=\"font-family: sans-serif; font-size: 12px;\">　</span></p><p><span style=\"font-family: sans-serif; font-size: 12px;\">※１　公益法人、社会福祉法人、学校法人、一般企業等</span></p><p><span style=\"font-family: sans-serif; font-size: 12px;\">※２　地方自治法第１条の３に規定する普通地方公共団体（都道府県及び市町村）及び特別地方公共団体（特別区、地方公共団体の組合、財産区及び地方開発事業団）</span></p><p><br></p><p><strong style=\"font-family: sans-serif; color: rgb(0, 111, 173); font-size: 12px;\">■公募要領・交付規定・申請様式などのダウンロード先</strong></p><p><a href=\"https://www.teitanso.or.jp/r8skgshigen/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-family: sans-serif; font-size: 12px;\">https://www.teitanso.or.jp/r8skgshigen/</a></p><p><br></p><p><strong style=\"font-family: sans-serif; color: rgb(0, 111, 173); font-size: 12px;\">■問合せ先</strong></p><p><span style=\"font-family: sans-serif; color: rgb(18, 18, 18); font-size: 12px;\">一般社団法人低炭素投資促進機構</span></p><p><span style=\"font-family: sans-serif; font-size: 12px;\">メール：r8skgshigen@teitanso.or.jp</span></p><p><br></p><p><strong style=\"font-family: sans-serif; color: rgb(0, 111, 173); font-size: 12px;\">■jGrantsの操作マニュアル（事業者用）</strong></p><p><a href=\"https://fs2.jgrants-portal.go.jp/%E6%93%8D%E4%BD%9C%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB_%E4%BA%8B%E6%A5%AD%E8%80%85%E7%94%A8.pdf\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-family: sans-serif; font-size: 12px;\">操作マニュアル_事業者用.pdf (jgrants-portal.go.jp)</a></p>",
+    "target_number_of_employees": "従業員数の制約なし",
+    "request_reception_presence": "有",
+    "is_enable_multiple_request": true,
+    "project_end_deadline": null,
+    "first_seen": "2026-07-29",
+    "last_updated": "2026-07-29"
+  },
+  {
+    "id": "jgrants-a0WJ200000CDd5SMAT",
+    "source": "jgrants",
+    "title": "令和８年度 脱炭素成長型経済構造移行推進対策費補助金（自律型資源 循環システム強靱化促進事業）（事前着手届出）【一次公募】",
+    "organization": "脱炭素成長型経済構造移行推進対策費補助金（自律型資源循環システム強靱化促進事業）",
+    "catch_phrase": "Ｒ８資源循環事業",
+    "summary": null,
+    "amount_max": null,
+    "amount_text": "不明",
+    "subsidy_rate": "公募要領をご確認ください",
+    "deadline": "2026-09-14",
+    "start_date": "2026-07-28",
+    "target_industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "target_area": "全国",
+    "category": null,
+    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd5SMAT",
+    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd5SMAT",
+    "status": "open",
+    "detail_html": "<p><strong style=\"font-size: 12px; font-family: sans-serif; color: rgb(0, 111, 173);\">■概要</strong></p><p><span style=\"color: rgb(36, 36, 36); font-size: 12px; font-family: sans-serif;\">　本来は、補助金交付決定通知後でないと、補助対象となる経費の発注（発注先への内示も発注行為とみなします）、支出等はできません。審査の結果、採択が決定されると、事務局から採択者に対し、「交付決定通知書」が発出されます。補助金の対象となる経費の発注・契約・支出行為は、交付決定通知後から可能となるのが原則です。ただし、本事業の必要性・緊急性に鑑み、以下の「受付期間」、「届出方法・提出先」に基づき事前着手届出を行い、「事前着手の受理の通知等」の通り事前着手受理通知を受けた場合、通知に記載の「事前着手開始日として認める日」（※）以降に発生した経費等についても補助対象経費として認める場合があります。なお、この場合でも補助金のルールに従った発注等の手続き（入札・３者見積など）が行われていないと補助対象経費となりませんのでご注意ください。詳しくは、公募要領「６．</span><span style=\"font-size: 12px; font-family: sans-serif;\">間接補助事業の申請、実施における注意事項</span><span style=\"font-size: 12px; font-family: sans-serif; color: rgb(36, 36, 36);\">」（Ｐ.１８）を確認してください。　</span></p><p><br></p><p><span style=\"color: rgb(36, 36, 36); font-family: sans-serif; font-size: 12px;\">※事前着手開始日として届け出た日付となります。届出日より前に実施した発注・契約・支出等に係る経費は補助対象となりませんので、ご注意ください。</span></p><p><br></p><p><br></p><p><strong style=\"font-size: 12px; font-family: sans-serif; color: rgb(0, 111, 173);\">■受付期間</strong></p><p><span style=\"color: rgb(36, 36, 36); font-family: sans-serif; font-size: 12px;\">令和８年７月２８日（火）～</span><u style=\"color: rgb(36, 36, 36); font-family: sans-serif; font-size: 12px;\">令和８年９月１４日（月）１５時まで</u></p><p><br></p><p><span style=\"color: rgb(36, 36, 36); font-family: sans-serif; font-size: 12px;\">※上記期間にjGrantsで届出を実施・完了してください。</span></p><p><br></p><p><strong style=\"font-size: 12px; font-family: sans-serif; color: rgb(0, 111, 173);\">■届出方法・提出先</strong></p><p><span style=\"color: rgb(36, 36, 36); font-family: sans-serif; font-size: 12px;\">届出される方は、上記期間に補助金申請システム「jGrants」の事前着手届出画面上から必要項目を直接入力し、届出してください。</span></p><p><span style=\"color: rgb(36, 36, 36); font-family: sans-serif; font-size: 12px;\">（注１）受付期間以降の届出は受け付けられません。</span></p><p><br></p><p><strong style=\"font-size: 12px; font-family: sans-serif; color: rgb(0, 111, 173);\">■事前着手の受理の通知等</strong></p><p><span style=\"color: rgb(36, 36, 36); font-family: sans-serif; font-size: 12px;\">　事前着手は、事務局が当該届出の内容から交付決定前に着手する緊急性・必要性があると判断した場合、受理を行います。事前着手の受理後、事務局から結果を速やかに通知します。</span></p><p><span style=\"color: rgb(36, 36, 36); font-family: sans-serif; font-size: 12px;\">　事前着手が受理された場合でも、本補助金の交付を受けるための採択審査の結果、採択されなかった場合は、本補助金の交付を受けることはできませんので、ご注意ください。また、事前着手受理通知に記載の「事前着手の開始日として認める日」より前に実施した発注（発注先への内示も発注行為とみなします）、購入、契約等に係る経費は補助対象外となりますので、ご注意ください。　</span></p><p><span style=\"color: rgb(36, 36, 36); font-family: sans-serif; font-size: 12px;\">　事前着手届出が受理されなかった場合、交付決定日よりも前に発注、購入、契約等を実施したものの経費は補助対象外となりますので、ご注意ください。</span></p><p><br></p><p><strong style=\"font-size: 12px; font-family: sans-serif; color: rgb(0, 111, 173);\">■事前相談・問い合わせ先</strong></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">メール：r8skgshigen@teitanso.or.jp</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">ＴＥＬ：０３－６２６４－８３８１</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">（受付時間）　[月～金] ９：００～１７：００（１２：００～１３：００を除く）</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">（祝祭日・１２月２９日～１月３日を除く）</span></p><p><br></p><p><strong style=\"font-size: 12px; font-family: sans-serif; color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.teitanso.or.jp/r8skgshigen/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.teitanso.or.jp/r8skgshigen/</a></p>",
+    "target_number_of_employees": "従業員数の制約なし",
+    "request_reception_presence": "有",
+    "is_enable_multiple_request": true,
+    "project_end_deadline": null,
+    "first_seen": "2026-07-29",
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDb6JMAT",
@@ -5550,7 +5697,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDcODMA1",
@@ -5578,7 +5725,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDczgMAD",
@@ -5620,7 +5767,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2029-09-28",
     "first_seen": "2026-07-22",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDTzMMAX",
@@ -5679,7 +5826,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2026-09-28",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYcpMAH",
@@ -5707,7 +5854,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYr0MAH",
@@ -5764,7 +5911,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYEIMA5",
@@ -5821,7 +5968,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W2x000004PhCHEA0",
@@ -5849,7 +5996,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY6tMAH",
@@ -5878,7 +6025,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZ2OMAX",
@@ -5906,7 +6053,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-28",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdRHMA1",
@@ -5939,7 +6086,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-18",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdgEMAT",
@@ -5996,7 +6143,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-28",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYQnMAP",
@@ -6054,7 +6201,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-11-30",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYQoMAP",
@@ -6112,7 +6259,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-09-30",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYRHMA5",
@@ -6170,7 +6317,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2028-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDaooMAD",
@@ -6199,7 +6346,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-16",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W2x000007Cos5EAC",
@@ -6257,7 +6404,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2026-10-12",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDWp3MAH",
@@ -6314,7 +6461,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2028-10-31",
     "first_seen": "2026-07-28",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdALMA1",
@@ -6371,7 +6518,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2028-10-31",
     "first_seen": "2026-07-28",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYaFMAX",
@@ -6430,7 +6577,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-19",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDPyeMAH",
@@ -6485,7 +6632,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2026-10-29",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYzVMAX",
@@ -6519,7 +6666,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZ1GMAX",
@@ -6552,7 +6699,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZ04MAH",
@@ -6586,7 +6733,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY6uMAH",
@@ -6615,7 +6762,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-04-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDaotMAD",
@@ -6654,7 +6801,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-27",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDczHMAT",
@@ -6712,7 +6859,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2026-02-28",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDczMMAT",
@@ -6770,7 +6917,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY4mMAH",
@@ -6798,7 +6945,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-02",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYbNMAX",
@@ -6855,7 +7002,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZDHMA5",
@@ -6888,7 +7035,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZXbMAP",
@@ -6947,7 +7094,66 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
+  },
+  {
+    "id": "jgrants-a0WJ200000CDNDnMAP",
+    "source": "jgrants",
+    "title": "令和８年度_Scope3排出量削減のための企業間連携による省CO2設備投資促進事業",
+    "organization": "脱炭素成長型経済構造移行推進対策費補助金",
+    "catch_phrase": "Scope3",
+    "summary": null,
+    "amount_max": 1500000000,
+    "amount_text": "最大1,500,000,000円",
+    "subsidy_rate": "公募要領を参照",
+    "deadline": "2026-11-13",
+    "start_date": "2026-07-28",
+    "target_industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "target_area": "全国",
+    "category": null,
+    "official_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDNDnMAP",
+    "detail_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDNDnMAP",
+    "status": "open",
+    "detail_html": "<p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">一般社団法人地域循環共生社会連携協会では、令和８年度脱炭素成長型経済構造移行推進対策費補助金（Scope3排出量削減のための企業間連携による省CO2設備投資促進事業）に係る環境省からの交付決定を受け、補助事業者を公募します。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 16px;\">（目的）</span></p><p><span style=\"font-size: 16px;\">脱炭素経営の国際潮流を踏まえ、大企業では自社以外の取引先等におけるCO2排出量（Scope3）の削減の重要度が増していることから、バリューチェーンを構成する中小企業等と連携して、Scope3の排出量削減に資する省CO2設備投資を促進することで、バリューチェーン全体のCO2排出削減を強力に推進するとともに、産業競争力強化やGX市場創造を図ることを目的とします。</span></p><p><span style=\"font-size: 16px;\">（概要）</span></p><p><span style=\"font-size: 16px;\">代表企業がバリューチェーンを構成する連携企業と連携してScope3の排出量削減に資する省CO2設備投資（現在の設備に対して30％以上の省CO2効果が見込める設備の導入※１）を支援します（連携企業の設備・機器の更新は代表企業のScope3の削減に寄与する取組を必ず含むものとします。）。</span></p><p><span style=\"font-size: 16px; color: black;\">Scope3排出量削減のための企業間連携による省CO2設備投資促進</span><span style=\"font-size: 16px;\">から得られた情報は、環境省がCO2削減対策の把握や普及広報などにも活用していく予定です。また、採択者の事業概要、排出量および削減量等の情報を、原則として環境省が公表する予定です。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"color: black; font-size: 16px;\">ア　補助事業の交付申請ができる者は以下のいずれかの者であること。</span></p><p><span style=\"color: black; font-size: 16px;\">①民間企業</span></p><p><span style=\"color: black; font-size: 16px;\">②独立行政法人通則法（平成１１年法律第１０３号）第２条第１項に規定する独立行政法人</span></p><p><span style=\"color: black; font-size: 16px;\">③地方独立行政法人法（平成十五年法律第１１８号）第２１条第３号チに規定される業務を行う地方独立行政法人</span></p><p><span style=\"color: black; font-size: 16px;\">④国立大学法人、公立大学法人及び学校法人</span></p><p><span style=\"color: black; font-size: 16px;\">⑤社会福祉法（昭和２６年法律第４５号）第２２条に規定する社会福祉法人</span></p><p><span style=\"color: black; font-size: 16px;\">⑥医療法（昭和２３年法律第２０５号）第３９条に規定する医療法人</span></p><p><span style=\"color: black; font-size: 16px;\">⑦特別法の規定に基づき設立された協同組合等</span></p><p><span style=\"color: black; font-size: 16px;\">⑧一般社団法人・一般財団法人及び公益社団法人・公益財団法人</span></p><p><span style=\"color: black; font-size: 16px;\">⑨その他環境大臣（以下「大臣」という。）の承認を得て協会が適当と認める者</span></p><p><span style=\"color: black; font-size: 16px;\">⑩地方公共団体（①から⑨のいずれかとの共同申請者であって、①から⑨のいずれかと建物を共同所有する場合に限る。）</span></p><p><span style=\"color: black; font-size: 16px;\"> </span></p><p><span style=\"color: black; font-size: 16px;\">イ　ア①の民間企業について、補助金の交付の対象となるのは、交付申請</span><span style=\"font-size: 16px;\">者が</span><span style=\"font-size: 16px; color: black;\">交付申請日までに、上記（１）ア表中「補助事業を実施（交付申請者）するための要件」に関する取組の実施について表明する場合に限る。</span></p><p><span style=\"color: black;\"> </span></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■補助上限額</strong></p><p><span style=\"color: black; font-size: 16px;\">１５億円﻿（設備導入をする１事業者あたりの応募事業の後年度分も含めた総額）</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■補助事業期間</strong></p><p><span style=\"color: black; font-size: 16px;\">事業期間：原則として３年以内</span></p><p><span style=\"color: black; font-size: 16px;\">単年度事業は交付決定日から令和９年１月３１日までとする。</span></p><p><span style=\"color: black; font-size: 16px;\">複数年度事業は交付決定日から最終年度の１月３１日までとする。</span></p><p><span style=\"font-size: 16px;\">また、本公募で採択された場合は、原則として令和８年度中に本補助金の交付申請を行い、交付決定する必要があります。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 16px;\">一般社団法人地域循環共生社会連携協会　事業部</span></p><p><span style=\"font-size: 16px;\">担当：安江</span></p><p><span style=\"font-size: 16px;\">問合せ用メールアドレス： 08scope3@rcespa.jp</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">﻿</span><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■参考URL</strong></p><p><a href=\"https://rcespa.jp/r07-scope3/r07-scope3-no1\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">https://rcespa.jp/r08-scope3/r08-scope3-no1</a> <span style=\"color: rgb(24, 24, 24);\">←要修正</span></p>",
+    "target_number_of_employees": "従業員数の制約なし",
+    "request_reception_presence": "有",
+    "is_enable_multiple_request": true,
+    "project_end_deadline": "2028-01-31",
+    "first_seen": "2026-07-29",
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDd3OMAT",
@@ -7006,7 +7212,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-28",
     "first_seen": "2026-07-14",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDd3YMAT",
@@ -7065,7 +7271,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-28",
     "first_seen": "2026-07-14",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYzQMAX",
@@ -7112,7 +7318,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY5GMAX",
@@ -7140,7 +7346,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-02",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZzQMAX",
@@ -7177,7 +7383,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-27",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYfxMAH",
@@ -7236,7 +7442,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYsRMAX",
@@ -7273,7 +7479,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYUmMAP",
@@ -7361,7 +7567,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZy8MAH",
@@ -7478,7 +7684,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-28",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDa1bMAD",
@@ -7537,7 +7743,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYEGMA5",
@@ -7595,7 +7801,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXvUMAX",
@@ -7624,7 +7830,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-04-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXyuMAH",
@@ -7683,7 +7889,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDddVMAT",
@@ -7741,7 +7947,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-23",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYDCMA5",
@@ -7770,7 +7976,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYR2MAP",
@@ -7828,7 +8034,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2028-12-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXmVMAX",
@@ -7885,7 +8091,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDX1KMAX",
@@ -7915,7 +8121,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2030-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYBxMAP",
@@ -7972,7 +8178,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYC7MAP",
@@ -8031,7 +8237,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDb6TMAT",
@@ -8064,7 +8270,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDb6YMAT",
@@ -8107,7 +8313,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDb6dMAD",
@@ -8147,7 +8353,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZyDMAX",
@@ -8291,7 +8497,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDddWMAT",
@@ -8349,7 +8555,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-23",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDddXMAT",
@@ -8406,7 +8612,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-23",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W2x000007CStEEAW",
@@ -8435,7 +8641,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W2x000007CStOEAW",
@@ -8463,7 +8669,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDVkeMAH",
@@ -8522,7 +8728,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2026-12-28",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYTvMAP",
@@ -8579,7 +8785,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-02-28",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY6KMAX",
@@ -8638,7 +8844,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbpCMAT",
@@ -8695,7 +8901,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2026-01-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbPLMA1",
@@ -8753,7 +8959,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-02-28",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDHQZMA5",
@@ -8782,7 +8988,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-05",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYUPMA5",
@@ -8812,7 +9018,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYUQMA5",
@@ -8842,7 +9048,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYZ7MAP",
@@ -8897,7 +9103,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-03-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDQuHMAX",
@@ -8926,7 +9132,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY7KMAX",
@@ -8954,7 +9160,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDK7NMAX",
@@ -9011,7 +9217,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDK7OMAX",
@@ -9068,7 +9274,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDWZ9MAP",
@@ -9127,7 +9333,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-01-15",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYq2MAH",
@@ -9186,7 +9392,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXRpMAP",
@@ -9245,7 +9451,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZDCMA5",
@@ -9276,7 +9482,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W5h00000ZuemGEAR",
@@ -9335,7 +9541,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDMSsMAP",
@@ -9365,7 +9571,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXH1MAP",
@@ -9422,7 +9628,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYSPMA5",
@@ -9452,7 +9658,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDa1RMAT",
@@ -9481,7 +9687,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdPBMA1",
@@ -9514,7 +9720,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-26",
     "first_seen": "2026-07-18",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDMQvMAP",
@@ -9544,7 +9750,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-04-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYW5MAP",
@@ -9572,7 +9778,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYW3MAP",
@@ -9600,7 +9806,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYW6MAP",
@@ -9628,7 +9834,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYW7MAP",
@@ -9656,7 +9862,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYW2MAP",
@@ -9684,7 +9890,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYvPMAX",
@@ -9742,7 +9948,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYUkMAP",
@@ -9771,7 +9977,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYyhMAH",
@@ -9830,7 +10036,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDK76MAH",
@@ -9887,7 +10093,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY5VMAX",
@@ -9916,7 +10122,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZIFMA5",
@@ -10031,7 +10237,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYCmMAP",
@@ -10089,7 +10295,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYSFMA5",
@@ -10119,7 +10325,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYSAMA5",
@@ -10149,7 +10355,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDap3MAD",
@@ -10208,7 +10414,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDddUMAT",
@@ -10265,7 +10471,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-25",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXk9MAH",
@@ -10323,7 +10529,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDL8JMAX",
@@ -10382,7 +10588,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2026-01-30",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYvQMAX",
@@ -10440,7 +10646,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-02-28",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY1VMAX",
@@ -10469,7 +10675,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYnpMAH",
@@ -10498,7 +10704,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXEmMAP",
@@ -10557,7 +10763,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-09-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXMiMAP",
@@ -10616,7 +10822,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2028-09-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY6GMAX",
@@ -10673,7 +10879,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDa42MAD",
@@ -10724,7 +10930,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbyzMAD",
@@ -10782,7 +10988,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY1kMAH",
@@ -10815,7 +11021,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDd5XMAT",
@@ -10844,7 +11050,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-06-30",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDd9xMAD",
@@ -10873,7 +11079,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-06-30",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdA6MAL",
@@ -10902,7 +11108,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-06-30",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdABMA1",
@@ -10931,7 +11137,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-06-30",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDd9wMAD",
@@ -10960,7 +11166,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-06-30",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDX4vMAH",
@@ -11019,7 +11225,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2027-03-23",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbHxMAL",
@@ -11048,7 +11254,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-16",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYffMAH",
@@ -11102,7 +11308,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY7yMAH",
@@ -11132,7 +11338,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY7tMAH",
@@ -11162,7 +11368,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY88MAH",
@@ -11192,7 +11398,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYSUMA5",
@@ -11220,7 +11426,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYsSMAX",
@@ -11273,7 +11479,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXqMMAX",
@@ -11328,7 +11534,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY89MAH",
@@ -11358,7 +11564,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYfwMAH",
@@ -11417,7 +11623,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY91MAH",
@@ -11447,7 +11653,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY9BMAX",
@@ -11477,7 +11683,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY1GMAX",
@@ -11510,7 +11716,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXORMA5",
@@ -11538,7 +11744,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY1fMAH",
@@ -11596,7 +11802,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY96MAH",
@@ -11626,7 +11832,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDacWMAT",
@@ -11673,7 +11879,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYuIMAX",
@@ -11703,7 +11909,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYu3MAH",
@@ -11733,7 +11939,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYSKMA5",
@@ -11761,7 +11967,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYuSMAX",
@@ -11791,7 +11997,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXk8MAH",
@@ -11849,7 +12055,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYuhMAH",
@@ -11879,7 +12085,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYviMAH",
@@ -11909,7 +12115,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYucMAH",
@@ -11939,7 +12145,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYumMAH",
@@ -11969,7 +12175,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYvnMAH",
@@ -11999,7 +12205,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYurMAH",
@@ -12029,7 +12235,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYUXMA5",
@@ -12069,7 +12275,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYvRMAX",
@@ -12109,7 +12315,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY1pMAH",
@@ -12147,7 +12353,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY1uMAH",
@@ -12205,7 +12411,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYvXMAX",
@@ -12264,7 +12470,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYVzMAP",
@@ -12320,7 +12526,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYW0MAP",
@@ -12378,7 +12584,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYW1MAP",
@@ -12436,7 +12642,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYW4MAP",
@@ -12464,7 +12670,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY72MAH",
@@ -12493,7 +12699,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbz0MAD",
@@ -12530,7 +12736,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDZz6MAH",
@@ -12558,7 +12764,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYuXMAX",
@@ -12588,7 +12794,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY8DMAX",
@@ -12618,7 +12824,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXoBMAX",
@@ -12677,7 +12883,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYCnMAP",
@@ -12735,7 +12941,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY6cMAH",
@@ -12793,7 +12999,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXFjMAP",
@@ -12821,7 +13027,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXENMA5",
@@ -12849,7 +13055,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2026-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYCrMAP",
@@ -12900,7 +13106,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY6dMAH",
@@ -12930,7 +13136,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDOsKMAX",
@@ -12958,7 +13164,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY2OMAX",
@@ -13016,7 +13222,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY9gMAH",
@@ -13045,7 +13251,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W2x000003QZLqEAO",
@@ -13073,7 +13279,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDK7KMAX",
@@ -13131,7 +13337,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYCpMAP",
@@ -13186,7 +13392,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY1QMAX",
@@ -13214,7 +13420,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYW8MAP",
@@ -13246,7 +13452,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYW9MAP",
@@ -13274,7 +13480,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYWAMA5",
@@ -13302,7 +13508,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYWBMA5",
@@ -13330,7 +13536,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXFfMAP",
@@ -13388,7 +13594,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXFgMAP",
@@ -13446,7 +13652,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXFhMAP",
@@ -13475,7 +13681,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXFiMAP",
@@ -13533,7 +13739,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY1zMAH",
@@ -13591,7 +13797,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ20000087jeOMAQ",
@@ -13620,7 +13826,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-23",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDRArMAP",
@@ -13649,7 +13855,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-23",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYk5MAH",
@@ -13707,7 +13913,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W2x000005iqyXEAQ",
@@ -13736,7 +13942,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDdL9MAL",
@@ -13765,7 +13971,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-23",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDaTOMA1",
@@ -13794,7 +14000,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-06-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDbosMAD",
@@ -13823,7 +14029,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-06-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYimMAH",
@@ -13882,7 +14088,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY8hMAH",
@@ -13911,7 +14117,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2027-04-01",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ2000000pSPQMA2",
@@ -13970,7 +14176,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2028-12-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDOrTMAX",
@@ -14028,7 +14234,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W5h00000UaiqSEAR",
@@ -14086,7 +14292,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ20000088TQ4MAM",
@@ -14145,7 +14351,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2028-12-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDY24MAH",
@@ -14176,7 +14382,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYCsMAP",
@@ -14205,7 +14411,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W5h00000UbQnXEAV",
@@ -14262,7 +14468,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDUvzMAH",
@@ -14321,7 +14527,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2029-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDVxKMAX",
@@ -14380,7 +14586,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2029-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYk9MAH",
@@ -14439,7 +14645,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYkBMAX",
@@ -14498,7 +14704,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDNhQMAX",
@@ -14556,7 +14762,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2029-03-31",
     "first_seen": "2026-07-11",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDRafMAH",
@@ -14615,7 +14821,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDXK4MAP",
@@ -14644,7 +14850,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W5h00000UbQnSEAV",
@@ -14702,7 +14908,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ2000000pejTMAQ",
@@ -14731,7 +14937,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDNiaMAH",
@@ -14790,7 +14996,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2029-12-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDYkAMAX",
@@ -14849,7 +15055,7 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W5h00000GMgXBEA1",
@@ -14904,7 +15110,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W5h00000UbU66EAF",
@@ -14959,7 +15165,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ2000000qhOQMAY",
@@ -15014,7 +15220,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": null,
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0WJ200000CDQEJMA5",
@@ -15069,7 +15275,7 @@
     "is_enable_multiple_request": false,
     "project_end_deadline": "2032-10-29",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   },
   {
     "id": "jgrants-a0W2x000007CrSAEA0",
@@ -15098,6 +15304,6 @@
     "is_enable_multiple_request": true,
     "project_end_deadline": "2124-03-31",
     "first_seen": "2026-07-10",
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-07-29"
   }
 ]
