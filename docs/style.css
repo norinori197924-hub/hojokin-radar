@@ -506,6 +506,27 @@ h2.section-title {
   margin: 0 0 12px;
 }
 
+.positioning-box {
+  background: var(--accent-soft);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 0 0 16px;
+}
+
+.positioning-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 4px;
+}
+
+.positioning-text {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+  margin: 0;
+}
+
 .detail-facts {
   width: 100%;
   border-collapse: collapse;

@@ -18,6 +18,13 @@
   <h1 class="detail-title">{{ item.title }}</h1>
   <p>{{ macros.status_badge(item) }}</p>
 
+  {% if positioning_text %}
+    <div class="positioning-box">
+      <p class="positioning-label">この補助金の位置付け</p>
+      <p class="positioning-text">{{ positioning_text }}</p>
+    </div>
+  {% endif %}
+
   <a class="official-link-btn" href="{{ item.official_url }}" target="_blank" rel="noopener noreferrer">公式ページを見る</a>
 
   <table class="detail-facts">

@@ -2,6 +2,7 @@
 フェーズ1: トップページ(index.html)と個別詳細ページ(s/{id}.html)のみ。
 """
 import json
+import re
 import shutil
 from collections import Counter
 from datetime import datetime, timezone, timedelta
@@ -78,6 +79,139 @@ def normalize_new_fields(items):
     for item in items:
         for field in NEW_DETAIL_FIELDS:
             item.setdefault(field, None)
+
+
+# --- v2.6 詳細ページコンテンツ改善 -----------------------------------------
+# AdSense「複製コンテンツ」「有用性の低いコンテンツ」指摘への対応。
+# SPEC.md v2.6参照。
+
+DETAIL_TRUNCATE_LIMIT = 1500
+DETAIL_TRUNCATE_SUFFIX = "…詳細は公式ページでご確認ください。"
+_TAG_STRIP_RE = re.compile(r"<[^>]+>")
+_TOKEN_RE = re.compile(r"<[^>]+>|[^<]+")
+_TAG_NAME_RE = re.compile(r"^<\s*/?\s*([a-zA-Z0-9]+)")
+_VOID_TAGS = {"br"}
+
+
+def _split_top_level_blocks(html):
+    """htmlをトップレベル要素単位に分割してリストで返す。
+    開閉タグをスタックで深さ管理し、深さが0に戻った時点をトップレベル要素の
+    終端とみなす(例: <ul>の中に<ul>が入れ子になっている場合でも正しく境界を
+    判定できる。単純な正規表現の後方参照<(tag)>.*?</\\1>だと、同名タグが
+    入れ子になっている箇所で最初の閉じタグにマッチして終端してしまい、
+    残りの閉じタグが取り残されてHTML構造が壊れるため、この方式は採らない)。"""
+    tokens = _TOKEN_RE.findall(html)
+    blocks = []
+    stack = []
+    pos = 0
+    block_start = None
+    for token in tokens:
+        if token.startswith("<"):
+            m = _TAG_NAME_RE.match(token)
+            tag = m.group(1).lower() if m else None
+            is_closing = token.startswith("</")
+            is_self_closing = token.endswith("/>")
+            if tag and tag not in _VOID_TAGS and not is_self_closing:
+                if is_closing:
+                    if tag in stack:
+                        while stack and stack[-1] != tag:
+                            stack.pop()
+                        if stack:
+                            stack.pop()
+                    if not stack and block_start is not None:
+                        blocks.append(html[block_start:pos + len(token)])
+                        block_start = None
+                else:
+                    if not stack:
+                        block_start = pos
+                    stack.append(tag)
+        pos += len(token)
+    return blocks
+
+
+def truncate_detail_html(html):
+    """サニタイズ済みdetail_htmlの可視文字数(タグ除去後の長さ)が
+    DETAIL_TRUNCATE_LIMITを超える場合のみ、トップレベル要素単位の境界で
+    切り詰める(タグの途中では切らない)。制限内であれば元のHTMLをそのまま返す。
+    トップレベル要素が1つも検出できない場合は安全側に倒して元のHTMLを
+    そのまま返す(無理に文字数で強制的に切って不正なHTMLを作らない)。"""
+    if not html:
+        return html
+    visible_len = len(_TAG_STRIP_RE.sub("", html))
+    if visible_len <= DETAIL_TRUNCATE_LIMIT:
+        return html
+
+    blocks = _split_top_level_blocks(html)
+    accumulated = ""
+    total_visible = 0
+    for block in blocks:
+        block_visible_len = len(_TAG_STRIP_RE.sub("", block))
+        if accumulated and total_visible + block_visible_len > DETAIL_TRUNCATE_LIMIT:
+            break
+        accumulated += block
+        total_visible += block_visible_len
+
+    if not accumulated:
+        return html
+    return accumulated + f"<p>{DETAIL_TRUNCATE_SUFFIX}</p>"
+
+
+POSITIONING_MAX_CHARS = 200
+
+# 補助率カテゴリ(categorize_subsidy_rateの出力)ごとの解説文言。
+# RATE_CATEGORY_OTHER(「その他・要確認」)は情報価値が薄いため文言を持たせず、
+# 該当する場合は補助率について何も言及しない。
+RATE_CATEGORY_PHRASES = {
+    "定額": "補助率は定額です。",
+    "4分の3": "補助率は4分の3です。",
+    "3分の2": "補助率は3分の2です。",
+    "2分の1": "補助率は2分の1です。",
+    "3分の1": "補助率は3分の1です。",
+}
+
+
+def build_positioning_text(item):
+    """詳細ページ冒頭の独自の位置付け解説を、実在するフィールドのみから
+    機械的に組み立てる(テンプレート文方式。SPEC.md v2.6参照。推測補完はしない)。
+    候補文を優先度順(業種→上限額→補助率→従業員数)に積み上げ、
+    POSITIONING_MAX_CHARSを超える手前で打ち切る。候補が1つも無い場合は
+    Noneを返し、テンプレート側で表示自体を省略する。
+    RATE_CATEGORY_MULTI(「複数の補助率」)はcategorize_subsidy_rate定義時点では
+    まだ定義されていないため、ここではモジュール変数を直接参照せず
+    categorize_subsidy_rateの戻り値をそのままRATE_CATEGORY_PHRASESで引く。"""
+    sentences = []
+
+    industries = get_targeted_industries(item)
+    if industries:
+        sentences.append(f"{'、'.join(industries)}を対象とした補助金です。")
+
+    amount_text = item.get("amount_text")
+    if amount_text and amount_text != "不明":
+        sentences.append(f"補助上限額は{amount_text}です。")
+
+    raw_rate = item.get("subsidy_rate")
+    if raw_rate:
+        rate_category = categorize_subsidy_rate(raw_rate)
+        if rate_category == RATE_CATEGORY_MULTI:
+            sentences.append("補助率は複数パターンがあります(要公募要領確認)。")
+        else:
+            phrase = RATE_CATEGORY_PHRASES.get(rate_category)
+            if phrase:
+                sentences.append(phrase)
+
+    employees = item.get("target_number_of_employees")
+    if employees:
+        sentences.append(f"対象従業員数の条件:{employees}。")
+
+    if not sentences:
+        return None
+
+    result = ""
+    for s in sentences:
+        if result and len(result) + len(s) > POSITIONING_MAX_CHARS:
+            break
+        result += s
+    return result or None
 
 # 表示順を安定させるための行政区画順（北海道→沖縄）。
 # 実データに出現する都道府県だけをこの順で抽出する（存在しない値は追加しない）。
@@ -536,6 +670,8 @@ def main():
     detail_tmpl = env.get_template("detail.html")
     for item in items:
         detail_body_html = sanitize_detail_html(item.get("detail_html"))
+        detail_body_html = truncate_detail_html(detail_body_html)
+        positioning_text = build_positioning_text(item)
         affiliate = select_affiliate(item)
         detail_page_html = detail_tmpl.render(
             base_path="../",
@@ -544,6 +680,7 @@ def main():
             adsense_client_id=adsense_client_id,
             item=item,
             detail_body_html=detail_body_html,
+            positioning_text=positioning_text,
             affiliate=affiliate,
         )
         (DOCS_DIR / "s" / f"{item['id']}.html").write_text(detail_page_html, encoding="utf-8")
